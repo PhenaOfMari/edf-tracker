@@ -1,0 +1,128 @@
+body {
+    background-color: #134539;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.header select {
+    border: 0.2em solid #b2fefe;
+    background-color: #15334f;
+    color: white;
+    margin: 0 0.5em;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.tabs.vertical {
+    flex-shrink: 0;
+    margin-top: 2em;
+}
+
+.tab {
+    background-color: #15334f;
+    border: 0.125em solid #b2fefe;
+    cursor: pointer;
+    padding: 0 0.5em;
+    transition: margin 0.1s linear, padding 0.1s linear;
+    user-select: none;
+}
+
+.tab.selected {
+    background-color: #3688da;
+}
+
+.horizontal .tab {
+    border-bottom: none;
+    border-radius: 0.25em 0.25em 0 0;
+    margin-top: 0.5em;
+}
+
+.horizontal .tab.selected {
+    margin-top: 0;
+    padding-bottom: 0.5em;
+}
+
+.vertical .tab {
+    clip-path: polygon(0.55em 0, 100% 0, 100% calc(100% - 0.55em), calc(100% - 0.55em) 100%, 0 100%, 0 0.55em);
+    font-size: 1.5em;
+    margin: 0.25em 0.85em 0.25em 0.25em;
+    position: relative;
+}
+
+.vertical .tab.selected {
+    margin-left: 0.85em;
+    margin-right: 0.25em;
+}
+
+.vertical .tab::before {
+    border-top: 0.5em solid #b2fefe;
+    border-right: 0.5em solid transparent;
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.vertical .tab::after {
+    border-bottom: 0.5em solid #b2fefe;
+    border-left: 0.5em solid transparent;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: #113011;
+}
+
+tr:nth-child(even) {
+    background-color: #0a1c0a;
+}
+
+tr:hover {
+    background-color: #3688da;
+}
+
+th {
+    background-color: #0667b6;
+}
+
+th,
+td {
+    border: 0.125em solid #50ff38;
+    padding: 0 0.25em;
+}
+
+td:not(:nth-child(3)) {
+    width: 1%;
+}
+
+td:not(:nth-child(3)):nth-child(2) {
+    width: 1.75em;
+}
+
+td.align-right {
+    text-align: right;
+}
+
+.plug {
+    bottom: 0;
+    color: white;
+    margin: 0.5em;
+    position: fixed;
+    right: 0;
+    text-decoration: none;
+    user-select: none;
+}

@@ -1,0 +1,11 @@
+.flex-row,
+.horizontal > .tab-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.flex-column,
+.vertical > .tab-container {
+    display: flex;
+    flex-flow: column;
+}

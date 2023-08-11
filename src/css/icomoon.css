@@ -1,0 +1,13 @@
+[class^="icon-"],
+[class*=" icon-"] {
+    font-family: icomoon, sans-serif;
+    line-height: 1em;
+}
+
+.icon-checkmark::before {
+    content: "\ea10";
+}
+
+.icon-github::before {
+    content: "\eab0";
+}
