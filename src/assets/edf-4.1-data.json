@@ -7099,45 +7099,6552 @@
     "weaponGroups": [
       {
         "type": "Short-Range",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Capacity",
+          "ROF",
+          "Damage",
+          "Range",
+          "Accuracy",
+          "Reload",
+          "Energy",
+          "Speed",
+          "DPS",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "0",
+            "name": "Rapier",
+            "stats": {
+              "Capacity": "500",
+              "ROF": "60",
+              "Damage": "1x6",
+              "Range": "30",
+              "Accuracy": "G",
+              "Reload": "0.5",
+              "Energy": "25",
+              "Speed": "600",
+              "DPS": "360.0",
+              "TDPS": "340.3"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "0",
+            "name": "Laser Lance",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "200",
+              "Range": "56",
+              "Accuracy": "S++",
+              "Reload": "1.5",
+              "Energy": "20",
+              "Speed": "480",
+              "DPS": "200.0",
+              "TDPS": "190.5"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "Spark Lancer",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "100x6",
+              "Range": "36",
+              "Accuracy": "S++",
+              "Reload": "1.5",
+              "Energy": "30",
+              "Speed": "120",
+              "DPS": "600.0",
+              "TDPS": "571.4"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "Rapier Thrust",
+            "stats": {
+              "Capacity": "500",
+              "ROF": "60",
+              "Damage": "1.5x6",
+              "Range": "30",
+              "Accuracy": "B-",
+              "Reload": "0.5",
+              "Energy": "25",
+              "Speed": "600",
+              "DPS": "540.0",
+              "TDPS": "510.4"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "7",
+            "name": "Laser Lance B",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "400",
+              "Range": "74",
+              "Accuracy": "S++",
+              "Reload": "2.5",
+              "Energy": "21",
+              "Speed": "630",
+              "DPS": "400.0",
+              "TDPS": "347.8"
+            },
+            "drops": {
+              "offline": {
+                "easy": "32-62",
+                "normal": "26-50",
+                "hard": "1-1",
+                "hardest": "1-71",
+                "inferno": "1-34"
+              },
+              "online": {
+                "easy": "35-68",
+                "normal": "29-55",
+                "hard": "1-1",
+                "hardest": "1-79",
+                "inferno": "1-37"
+              },
+              "missionPack1": {
+                "easy": "1-5",
+                "normal": "1-3",
+                "hardest": "1-19"
+              },
+              "missionPack2": {
+                "easy": "1-2",
+                "normal": "1-2",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "10",
+            "name": "M2 Rapier",
+            "stats": {
+              "Capacity": "500",
+              "ROF": "60",
+              "Damage": "3x6",
+              "Range": "30",
+              "Accuracy": "G",
+              "Reload": "0.5",
+              "Energy": "28",
+              "Speed": "600",
+              "DPS": "1080.0",
+              "TDPS": "1020.8"
+            },
+            "drops": {
+              "offline": {
+                "easy": "45-75",
+                "normal": "37-60",
+                "hard": "1-10",
+                "hardest": "1-80",
+                "inferno": "1-39"
+              },
+              "online": {
+                "easy": "50-83",
+                "normal": "40-66",
+                "hard": "1-11",
+                "hardest": "1-88",
+                "inferno": "1-43"
+              },
+              "missionPack1": {
+                "easy": "1-15",
+                "normal": "1-9",
+                "hardest": "1-22"
+              },
+              "missionPack2": {
+                "easy": "1-4",
+                "normal": "1-4",
+                "hardest": "1-13"
+              }
+            }
+          },
+          {
+            "lv": "12",
+            "name": "2-Way Lance",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "250x2",
+              "Range": "70",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "23",
+              "Speed": "600",
+              "DPS": "500.0",
+              "TDPS": "454.5"
+            },
+            "drops": {
+              "offline": {
+                "easy": "54-84",
+                "normal": "44-67",
+                "hard": "1-17",
+                "hardest": "1-86",
+                "inferno": "1-43"
+              },
+              "online": {
+                "easy": "60-93",
+                "normal": "48-74",
+                "hard": "1-18",
+                "hardest": "1-94",
+                "inferno": "1-47"
+              },
+              "missionPack1": {
+                "easy": "1-22",
+                "normal": "1-13",
+                "hardest": "1-24"
+              },
+              "missionPack2": {
+                "easy": "1-6",
+                "normal": "1-6",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "15",
+            "name": "Plasma Ram",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "2000",
+              "Range": "91",
+              "Accuracy": "S++",
+              "Reload": "2.5",
+              "Energy": "20",
+              "Speed": "780",
+              "TDPS": "800.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "67-89",
+                "normal": "54-78",
+                "hard": "1-26",
+                "hardest": "1-89",
+                "inferno": "1-48"
+              },
+              "online": {
+                "easy": "74-98",
+                "normal": "60-86",
+                "hard": "1-28",
+                "hardest": "1-98",
+                "inferno": "1-53"
+              },
+              "missionPack1": {
+                "easy": "10-26",
+                "normal": "6-19",
+                "hardest": "1-26",
+                "inferno": "1-2"
+              },
+              "missionPack2": {
+                "easy": "4-9",
+                "normal": "4-9",
+                "hardest": "1-16",
+                "inferno": "1-2"
+              }
+            }
+          },
+          {
+            "lv": "17",
+            "name": "Laser Lance R Custom",
+            "stats": {
+              "Capacity": "15",
+              "ROF": "2",
+              "Damage": "400",
+              "Range": "74",
+              "Accuracy": "B-",
+              "Reload": "3",
+              "Energy": "20",
+              "Speed": "630",
+              "DPS": "800.0",
+              "TDPS": "600.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "76-89",
+                "normal": "61-85",
+                "hard": "1-32",
+                "hardest": "1-89",
+                "inferno": "1-52"
+              },
+              "online": {
+                "easy": "84-98",
+                "normal": "67-94",
+                "hard": "1-35",
+                "hardest": "1-98",
+                "inferno": "1-57"
+              },
+              "missionPack1": {
+                "easy": "16-26",
+                "normal": "10-23",
+                "hardest": "1-26",
+                "inferno": "1-4"
+              },
+              "missionPack2": {
+                "easy": "5-11",
+                "normal": "5-11",
+                "hardest": "1-18",
+                "inferno": "1-4"
+              }
+            }
+          },
+          {
+            "lv": "20",
+            "name": "M3 Rapier Thrust",
+            "stats": {
+              "Capacity": "600",
+              "ROF": "60",
+              "Damage": "4.5x6",
+              "Range": "30",
+              "Accuracy": "B-",
+              "Reload": "0.5",
+              "Energy": "22",
+              "Speed": "600",
+              "DPS": "1620.0",
+              "TDPS": "1545.3"
+            },
+            "drops": {
+              "offline": {
+                "easy": "89-89",
+                "normal": "72-89",
+                "hard": "1-41",
+                "hardest": "1-89",
+                "inferno": "1-57"
+              },
+              "online": {
+                "easy": "98-98",
+                "normal": "79-98",
+                "hard": "1-45",
+                "hardest": "1-98",
+                "inferno": "1-63"
+              },
+              "missionPack1": {
+                "easy": "26-26",
+                "normal": "16-26",
+                "hardest": "1-26",
+                "inferno": "1-7"
+              },
+              "missionPack2": {
+                "easy": "8-13",
+                "normal": "8-13",
+                "hardest": "1-19",
+                "inferno": "1-7"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "MX Laser Lance",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "900",
+              "Range": "84",
+              "Accuracy": "S++",
+              "Reload": "30",
+              "Speed": "720",
+              "DPS": "900.0",
+              "TDPS": "230.8"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "30",
+            "name": "Plasma Whip",
+            "stats": {
+              "Capacity": "2500",
+              "ROF": "60",
+              "Damage": "3x10",
+              "Range": "75",
+              "Accuracy": "L",
+              "Reload": "2",
+              "Energy": "120",
+              "Speed": "1500",
+              "DPS": "1800.0",
+              "TDPS": "1718.2"
+            },
+            "drops": {
+              "offline": {
+                "hard": "28-72",
+                "hardest": "1-89",
+                "inferno": "1-74"
+              },
+              "online": {
+                "hard": "31-79",
+                "hardest": "1-98",
+                "inferno": "1-82"
+              },
+              "missionPack1": {
+                "hard": "1-16",
+                "hardest": "1-26",
+                "inferno": "1-17"
+              },
+              "missionPack2": {
+                "easy": "17-22",
+                "normal": "17-22",
+                "hard": "1-8",
+                "hardest": "1-23",
+                "inferno": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "30",
+            "name": "Laser Lance C",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "1200",
+              "Range": "49",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "25",
+              "Speed": "420",
+              "DPS": "1200.0",
+              "TDPS": "1090.9"
+            },
+            "drops": {
+              "offline": {
+                "hard": "28-72",
+                "hardest": "1-89",
+                "inferno": "1-74"
+              },
+              "online": {
+                "hard": "31-79",
+                "hardest": "1-98",
+                "inferno": "1-82"
+              },
+              "missionPack1": {
+                "hard": "1-16",
+                "hardest": "1-26",
+                "inferno": "1-17"
+              },
+              "missionPack2": {
+                "easy": "17-22",
+                "normal": "17-22",
+                "hard": "1-8",
+                "hardest": "1-23",
+                "inferno": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "32",
+            "name": "3-Way Lance",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "390x3",
+              "Range": "42",
+              "Accuracy": "S++",
+              "Reload": "4",
+              "Energy": "30",
+              "Speed": "360",
+              "DPS": "1170.0",
+              "TDPS": "900.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "34-78",
+                "hardest": "1-89",
+                "inferno": "1-78"
+              },
+              "online": {
+                "hard": "38-86",
+                "hardest": "1-98",
+                "inferno": "1-86"
+              },
+              "missionPack1": {
+                "hard": "1-20",
+                "hardest": "1-26",
+                "inferno": "1-19"
+              },
+              "missionPack2": {
+                "easy": "19-23",
+                "normal": "19-23",
+                "hard": "1-10",
+                "hardest": "1-23",
+                "inferno": "1-17"
+              }
+            }
+          },
+          {
+            "lv": "35",
+            "name": "MX Rapier",
+            "stats": {
+              "Capacity": "600",
+              "ROF": "60",
+              "Damage": "9x6",
+              "Range": "30",
+              "Accuracy": "C-",
+              "Reload": "20",
+              "Speed": "600",
+              "DPS": "3240.0",
+              "TDPS": "1080.6"
+            },
+            "drops": {
+              "offline": {
+                "hard": "44-87",
+                "hardest": "1-89",
+                "inferno": "1-83"
+              },
+              "online": {
+                "hard": "48-96",
+                "hardest": "1-98",
+                "inferno": "1-92"
+              },
+              "missionPack1": {
+                "hard": "1-25",
+                "hardest": "1-26",
+                "inferno": "1-22"
+              },
+              "missionPack2": {
+                "easy": "21-23",
+                "normal": "21-23",
+                "hard": "1-12",
+                "hardest": "1-23",
+                "inferno": "1-20"
+              }
+            }
+          },
+          {
+            "lv": "40",
+            "name": "Burst Lance",
+            "stats": {
+              "Capacity": "20",
+              "ROF": "1",
+              "Damage": "1800",
+              "Range": "84",
+              "Accuracy": "S++",
+              "Reload": "3.5",
+              "Energy": "70",
+              "Speed": "720",
+              "DPS": "1800.0",
+              "TDPS": "1600.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "59-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "65-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "10-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "5-16",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "45",
+            "name": "Rapier G Thrust",
+            "stats": {
+              "Capacity": "400",
+              "ROF": "60",
+              "Damage": "13.5x6",
+              "Range": "36",
+              "Accuracy": "C+",
+              "Reload": "1",
+              "Energy": "12",
+              "Speed": "720",
+              "DPS": "4860.0",
+              "TDPS": "4235.3"
+            },
+            "drops": {
+              "offline": {
+                "hard": "74-89",
+                "hardest": "4-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "82-98",
+                "hardest": "5-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "18-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "9-20",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "47",
+            "name": "Spark Lance",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "200x7",
+              "Range": "38",
+              "Accuracy": "S++",
+              "Reload": "1.5",
+              "Energy": "28",
+              "Speed": "120",
+              "DPS": "1400.0",
+              "TDPS": "1333.3"
+            },
+            "drops": {
+              "offline": {
+                "hard": "80-89",
+                "hardest": "10-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "88-98",
+                "hardest": "11-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "21-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "11-22",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "50",
+            "name": "Laser Lance X",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "2700",
+              "Range": "74",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "20",
+              "Speed": "630",
+              "DPS": "2700.0",
+              "TDPS": "2250.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "89-89",
+                "hardest": "19-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "98-98",
+                "hardest": "20-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "26-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "13-23",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "52",
+            "name": "Rapier G Thrust 2",
+            "stats": {
+              "Capacity": "600",
+              "ROF": "60",
+              "Damage": "21x6",
+              "Range": "30",
+              "Accuracy": "C+",
+              "Reload": "5",
+              "Energy": "28",
+              "Speed": "600",
+              "DPS": "7560.0",
+              "TDPS": "5045.6"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "24-89",
+                "inferno": "5-89"
+              },
+              "online": {
+                "hardest": "27-98",
+                "inferno": "5-98"
+              },
+              "missionPack1": {
+                "hardest": "3-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "15-23",
+                "hardest": "3-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "55",
+            "name": "Plasma Whip S",
+            "stats": {
+              "Capacity": "2000",
+              "ROF": "60",
+              "Damage": "6x20",
+              "Range": "75",
+              "Accuracy": "L",
+              "Reload": "2",
+              "Energy": "120",
+              "Speed": "1500",
+              "DPS": "7200.0",
+              "TDPS": "6795.7"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "33-89",
+                "inferno": "10-89"
+              },
+              "online": {
+                "hardest": "36-98",
+                "inferno": "11-98"
+              },
+              "missionPack1": {
+                "hardest": "6-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "17-23",
+                "hardest": "4-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "57",
+            "name": "Demonic Lance",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "15000",
+              "Range": "95",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "30",
+              "Speed": "810",
+              "TDPS": "5000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "38-89",
+                "inferno": "14-89"
+              },
+              "online": {
+                "hardest": "42-98",
+                "inferno": "15-98"
+              },
+              "missionPack1": {
+                "hardest": "8-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "19-23",
+                "hardest": "6-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "60",
+            "name": "4-Way Lance",
+            "stats": {
+              "Capacity": "11",
+              "ROF": "1",
+              "Damage": "1100x4",
+              "Range": "56",
+              "Accuracy": "S++",
+              "Reload": "4",
+              "Energy": "26",
+              "Speed": "480",
+              "DPS": "4400.0",
+              "TDPS": "3457.1"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "47-89",
+                "inferno": "19-89"
+              },
+              "online": {
+                "hardest": "52-98",
+                "inferno": "21-98"
+              },
+              "missionPack1": {
+                "hardest": "11-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "21-23",
+                "hardest": "7-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "65",
+            "name": "Plasma Sweeper",
+            "stats": {
+              "Capacity": "600",
+              "ROF": "60",
+              "Damage": "15x10",
+              "Range": "30",
+              "Accuracy": "B-",
+              "Reload": "3",
+              "Energy": "34",
+              "Speed": "600",
+              "DPS": "9000.0",
+              "TDPS": "6932.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "61-89",
+                "inferno": "28-89"
+              },
+              "online": {
+                "hardest": "67-98",
+                "inferno": "31-98"
+              },
+              "missionPack1": {
+                "hardest": "16-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "10-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "72",
+            "name": "Master Rapier",
+            "stats": {
+              "Capacity": "800",
+              "ROF": "60",
+              "Damage": "21x15",
+              "Range": "30",
+              "Accuracy": "F",
+              "Reload": "0.5",
+              "Energy": "26",
+              "Speed": "600",
+              "DPS": "18900.0",
+              "TDPS": "18238.8"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "81-89",
+                "inferno": "40-89"
+              },
+              "online": {
+                "hardest": "89-98",
+                "inferno": "44-98"
+              },
+              "missionPack1": {
+                "hardest": "23-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "14-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "75",
+            "name": "Laser Lance Σ",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1.5",
+              "Damage": "5000",
+              "Range": "95",
+              "Accuracy": "S++",
+              "Reload": "1.5",
+              "Energy": "16",
+              "Speed": "810",
+              "DPS": "7500.0",
+              "TDPS": "6666.7"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "89-89",
+                "inferno": "45-89"
+              },
+              "online": {
+                "hardest": "98-98",
+                "inferno": "50-98"
+              },
+              "missionPack1": {
+                "hardest": "26-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "16-26",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "78",
+            "name": "Sacred Lance",
+            "stats": {
+              "Capacity": "11",
+              "ROF": "1",
+              "Damage": "800x12",
+              "Range": "56",
+              "Accuracy": "S++",
+              "Reload": "4",
+              "Energy": "26",
+              "Speed": "480",
+              "DPS": "9600.0",
+              "TDPS": "7542.9"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "51-89"
+              },
+              "online": {
+                "inferno": "56-98"
+              },
+              "missionPack1": {
+                "inferno": "4-26"
+              },
+              "missionPack2": {
+                "hardest": "18-23",
+                "inferno": "4-23"
+              }
+            }
+          },
+          {
+            "lv": "80",
+            "name": "Spark Lance A",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "800x8",
+              "Range": "72",
+              "Accuracy": "A-",
+              "Reload": "1.5",
+              "Energy": "28",
+              "Speed": "120",
+              "DPS": "6400.0",
+              "TDPS": "6095.2"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "54-89"
+              },
+              "online": {
+                "inferno": "60-98"
+              },
+              "missionPack1": {
+                "inferno": "6-26"
+              },
+              "missionPack2": {
+                "hardest": "19-23",
+                "inferno": "6-23"
+              }
+            }
+          },
+          {
+            "lv": "82",
+            "name": "Master Rapier Thrust",
+            "stats": {
+              "Capacity": "800",
+              "ROF": "60",
+              "Damage": "21x15",
+              "Range": "30",
+              "Accuracy": "B-",
+              "Reload": "0.5",
+              "Energy": "26",
+              "Speed": "600",
+              "DPS": "18900.0",
+              "TDPS": "18238.8"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "58-89"
+              },
+              "online": {
+                "inferno": "64-98"
+              },
+              "missionPack1": {
+                "inferno": "8-26"
+              },
+              "missionPack2": {
+                "hardest": "20-23",
+                "inferno": "8-23"
+              }
+            }
+          },
+          {
+            "lv": "90",
+            "name": "Luonnotar",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1.5",
+              "Damage": "1800x6",
+              "Range": "66",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "30",
+              "Speed": "660",
+              "DPS": "16200.0",
+              "TDPS": "12000.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "72-89"
+              },
+              "online": {
+                "inferno": "79-98"
+              },
+              "missionPack1": {
+                "inferno": "16-26"
+              },
+              "missionPack2": {
+                "inferno": "15-23"
+              }
+            }
+          },
+          {
+            "lv": "90",
+            "name": "Hreidmarr",
+            "stats": {
+              "Capacity": "12",
+              "ROF": "1.5",
+              "Damage": "6000",
+              "Range": "90",
+              "Accuracy": "S++",
+              "Reload": "1.5",
+              "Energy": "25",
+              "Speed": "1080",
+              "DPS": "9000.0",
+              "TDPS": "8150.9"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "72-89"
+              },
+              "online": {
+                "inferno": "79-98"
+              },
+              "missionPack1": {
+                "inferno": "16-26"
+              },
+              "missionPack2": {
+                "inferno": "15-23"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "Mid-Rg Lasers",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Capacity",
+          "ROF",
+          "Damage",
+          "Range",
+          "Accuracy",
+          "Reload",
+          "Energy",
+          "Speed",
+          "DPS",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "0",
+            "name": "LAZR-197",
+            "stats": {
+              "Capacity": "1000",
+              "ROF": "60",
+              "Damage": "1.5",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "20",
+              "Speed": "2400",
+              "DPS": "90.0",
+              "TDPS": "80.4"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "Reflectron Laser",
+            "stats": {
+              "Capacity": "1000",
+              "ROF": "60",
+              "Damage": "1.8",
+              "Range": "180",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "38",
+              "Speed": "1800",
+              "DPS": "108.0",
+              "TDPS": "96.5"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "3",
+            "name": "LARG-V",
+            "stats": {
+              "Capacity": "960",
+              "ROF": "60",
+              "Damage": "3x2",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "25",
+              "Speed": "2400",
+              "DPS": "360.0",
+              "TDPS": "320.3"
+            },
+            "drops": {
+              "offline": {
+                "easy": "15-44",
+                "normal": "12-36",
+                "hardest": "1-60",
+                "inferno": "1-27"
+              },
+              "online": {
+                "easy": "16-49",
+                "normal": "13-39",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "missionPack1": {
+                "hardest": "1-15"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "6",
+            "name": "LAZR-198",
+            "stats": {
+              "Capacity": "1100",
+              "ROF": "60",
+              "Damage": "3",
+              "Range": "136",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "24",
+              "Speed": "2040",
+              "DPS": "180.0",
+              "TDPS": "154.8"
+            },
+            "drops": {
+              "offline": {
+                "easy": "28-58",
+                "normal": "23-46",
+                "hardest": "1-69",
+                "inferno": "1-32"
+              },
+              "online": {
+                "easy": "31-64",
+                "normal": "25-51",
+                "hardest": "1-76",
+                "inferno": "1-35"
+              },
+              "missionPack1": {
+                "easy": "1-2",
+                "normal": "1-1",
+                "hardest": "1-18"
+              },
+              "missionPack2": {
+                "easy": "1-1",
+                "normal": "1-1",
+                "hardest": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "15",
+            "name": "LAZR-199",
+            "stats": {
+              "Capacity": "1400",
+              "ROF": "60",
+              "Damage": "4.6",
+              "Range": "128",
+              "Accuracy": "S++",
+              "Reload": "4",
+              "Energy": "29",
+              "Speed": "1920",
+              "DPS": "276.0",
+              "TDPS": "235.8"
+            },
+            "drops": {
+              "offline": {
+                "easy": "67-89",
+                "normal": "54-78",
+                "hard": "1-26",
+                "hardest": "1-89",
+                "inferno": "1-48"
+              },
+              "online": {
+                "easy": "74-98",
+                "normal": "60-86",
+                "hard": "1-28",
+                "hardest": "1-98",
+                "inferno": "1-53"
+              },
+              "missionPack1": {
+                "easy": "10-26",
+                "normal": "6-19",
+                "hardest": "1-26",
+                "inferno": "1-2"
+              },
+              "missionPack2": {
+                "easy": "4-9",
+                "normal": "4-9",
+                "hardest": "1-16",
+                "inferno": "1-2"
+              }
+            }
+          },
+          {
+            "lv": "20",
+            "name": "LAZR-200",
+            "stats": {
+              "Capacity": "1000",
+              "ROF": "60",
+              "Damage": "7",
+              "Range": "100",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "26",
+              "Speed": "1500",
+              "DPS": "420.0",
+              "TDPS": "356.2"
+            },
+            "drops": {
+              "offline": {
+                "easy": "89-89",
+                "normal": "72-89",
+                "hard": "1-41",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "easy": "98-98",
+                "normal": "79-98",
+                "hard": "1-45",
+                "hardest": "1-98",
+                "inferno": "1-63"
+              },
+              "missionPack1": {
+                "easy": "26-26",
+                "normal": "16-26",
+                "hardest": "1-26",
+                "inferno": "1-7"
+              },
+              "missionPack2": {
+                "easy": "8-13",
+                "normal": "8-13",
+                "hardest": "1-19",
+                "inferno": "1-7"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "Laser Chainsaw",
+            "stats": {
+              "Capacity": "1060",
+              "ROF": "60",
+              "Damage": "20x2",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "2.5",
+              "Energy": "26",
+              "Speed": "1800",
+              "DPS": "2400.0",
+              "TDPS": "2104.2"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "28",
+            "name": "LAZR-201",
+            "stats": {
+              "Capacity": "1200",
+              "ROF": "60",
+              "Damage": "9",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "2.5",
+              "Energy": "30",
+              "Speed": "1800",
+              "DPS": "540.0",
+              "TDPS": "480.4"
+            },
+            "drops": {
+              "offline": {
+                "hard": "22-66",
+                "hardest": "1-89",
+                "inferno": "1-71"
+              },
+              "online": {
+                "hard": "24-72",
+                "hardest": "1-98",
+                "inferno": "1-78"
+              },
+              "missionPack1": {
+                "hard": "1-13",
+                "hardest": "1-26",
+                "inferno": "1-15"
+              },
+              "missionPack2": {
+                "easy": "15-20",
+                "normal": "15-20",
+                "hard": "1-6",
+                "hardest": "1-23",
+                "inferno": "1-14"
+              }
+            }
+          },
+          {
+            "lv": "32",
+            "name": "Reflectron V Laser",
+            "stats": {
+              "Capacity": "1000",
+              "ROF": "60",
+              "Damage": "9x2",
+              "Range": "240",
+              "Accuracy": "S++",
+              "Reload": "2.67",
+              "Energy": "65",
+              "Speed": "3600",
+              "DPS": "1080.0",
+              "TDPS": "931.8"
+            },
+            "drops": {
+              "offline": {
+                "hard": "34-78",
+                "hardest": "1-89",
+                "inferno": "1-78"
+              },
+              "online": {
+                "hard": "38-86",
+                "hardest": "1-98",
+                "inferno": "1-86"
+              },
+              "missionPack1": {
+                "hard": "1-20",
+                "hardest": "1-26",
+                "inferno": "1-19"
+              },
+              "missionPack2": {
+                "easy": "19-23",
+                "normal": "19-23",
+                "hard": "1-10",
+                "hardest": "1-23",
+                "inferno": "1-17"
+              }
+            }
+          },
+          {
+            "lv": "40",
+            "name": "LAZR-202",
+            "stats": {
+              "Capacity": "1200",
+              "ROF": "60",
+              "Damage": "12",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "2.5",
+              "Energy": "30",
+              "Speed": "1800",
+              "DPS": "720.0",
+              "TDPS": "640.5"
+            },
+            "drops": {
+              "offline": {
+                "hard": "59-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "65-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "18-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "5-16",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "45",
+            "name": "LARG-W3",
+            "stats": {
+              "Capacity": "1160",
+              "ROF": "60",
+              "Damage": "14x3",
+              "Range": "160",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "30",
+              "Speed": "2400",
+              "DPS": "2520.0",
+              "TDPS": "2285.5"
+            },
+            "drops": {
+              "offline": {
+                "hard": "74-89",
+                "hardest": "4-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "82-98",
+                "hardest": "5-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "21-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "9-20",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "47",
+            "name": "Reflectron Laser D",
+            "stats": {
+              "Capacity": "1000",
+              "ROF": "60",
+              "Damage": "15",
+              "Range": "140",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "55",
+              "Speed": "2100",
+              "DPS": "900.0",
+              "TDPS": "804.3"
+            },
+            "drops": {
+              "offline": {
+                "hard": "80-89",
+                "hardest": "10-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "88-98",
+                "hardest": "11-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "21-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "11-22",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "50",
+            "name": "Cyclone Laser",
+            "stats": {
+              "Capacity": "1040",
+              "ROF": "60",
+              "Damage": "6x8",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "180",
+              "Speed": "1800",
+              "DPS": "2880.0",
+              "TDPS": "2457.1"
+            },
+            "drops": {
+              "offline": {
+                "hard": "89-89",
+                "hardest": "19-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "98-98",
+                "hardest": "20-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "26-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "13-23",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "55",
+            "name": "LAZR-299",
+            "stats": {
+              "Capacity": "1040",
+              "ROF": "60",
+              "Damage": "17",
+              "Range": "120",
+              "Accuracy": "S++",
+              "Reload": "3",
+              "Energy": "18",
+              "Speed": "1800",
+              "DPS": "1020.0",
+              "TDPS": "870.2"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "33-89",
+                "inferno": "10-89"
+              },
+              "online": {
+                "hardest": "36-98",
+                "inferno": "11-98"
+              },
+              "missionPack1": {
+                "hardest": "6-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "17-23",
+                "hardest": "4-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "62",
+            "name": "LAZR-300",
+            "stats": {
+              "Capacity": "1140",
+              "ROF": "60",
+              "Damage": "22",
+              "Range": "160",
+              "Accuracy": "S++",
+              "Reload": "4",
+              "Energy": "26",
+              "Speed": "2400",
+              "DPS": "1320.0",
+              "TDPS": "1091.2"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "53-89",
+                "inferno": "23-89"
+              },
+              "online": {
+                "hardest": "58-98",
+                "inferno": "25-98"
+              },
+              "missionPack1": {
+                "hardest": "13-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "23-23",
+                "hardest": "9-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "70",
+            "name": "Reflectron Multi-Laser",
+            "stats": {
+              "Capacity": "1100",
+              "ROF": "60",
+              "Damage": "25x2",
+              "Range": "140",
+              "Accuracy": "S++",
+              "Reload": "5",
+              "Energy": "52",
+              "Speed": "2100",
+              "DPS": "3000.0",
+              "TDPS": "2358.8"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "75-89",
+                "inferno": "37-89"
+              },
+              "online": {
+                "hardest": "83-98",
+                "inferno": "40-98"
+              },
+              "missionPack1": {
+                "hardest": "21-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "13-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "75",
+            "name": "ARC-LAZR",
+            "stats": {
+              "Capacity": "1300",
+              "ROF": "60",
+              "Damage": "27",
+              "Range": "172",
+              "Accuracy": "S++",
+              "Reload": "4.5",
+              "Energy": "21",
+              "Speed": "2580",
+              "DPS": "1620.0",
+              "TDPS": "1342.3"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "89-89",
+                "inferno": "45-89"
+              },
+              "online": {
+                "hardest": "98-98",
+                "inferno": "50-98"
+              },
+              "missionPack1": {
+                "hardest": "26-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "16-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "82",
+            "name": "Reflectron Laser ZD",
+            "stats": {
+              "Capacity": "1200",
+              "ROF": "60",
+              "Damage": "27",
+              "Range": "200",
+              "Accuracy": "S++",
+              "Reload": "3.33",
+              "Energy": "39",
+              "Speed": "3000",
+              "DPS": "1620.0",
+              "TDPS": "1389.6"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "58-89"
+              },
+              "online": {
+                "inferno": "64-98"
+              },
+              "missionPack1": {
+                "inferno": "8-26"
+              },
+              "missionPack2": {
+                "hardest": "20-23",
+                "inferno": "8-23"
+              }
+            }
+          },
+          {
+            "lv": "90",
+            "name": "SIG-LAZR",
+            "stats": {
+              "Capacity": "1500",
+              "ROF": "60",
+              "Damage": "30",
+              "Range": "180",
+              "Accuracy": "S++",
+              "Reload": "4.5",
+              "Energy": "18",
+              "Speed": "3600",
+              "DPS": "1800.0",
+              "TDPS": "1526.3"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "72-89"
+              },
+              "online": {
+                "inferno": "79-98"
+              },
+              "missionPack1": {
+                "inferno": "16-26"
+              },
+              "missionPack2": {
+                "inferno": "15-23"
+              }
+            }
+          }
+        ]
       },
       {
-        "type": "Mid-rg Electroshock",
-        "columns": [],
-        "weapons": []
+        "type": "Mid-Rg Electroshock",
+        "columns": [
+          "Capacity",
+          "ROF",
+          "Damage",
+          "Range",
+          "Accuracy",
+          "Reload",
+          "Energy",
+          "Speed",
+          "DPS",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "1",
+            "name": "Idunn A",
+            "stats": {
+              "Capacity": "160",
+              "ROF": "10",
+              "Damage": "13",
+              "Range": "113",
+              "Accuracy": "B",
+              "Reload": "2",
+              "Energy": "60",
+              "Speed": "150",
+              "DPS": "130.0",
+              "TDPS": "116.2"
+            },
+            "drops": {
+              "offline": {
+                "easy": "6-36",
+                "normal": "5-29",
+                "hardest": "1-54",
+                "inferno": "1-23"
+              },
+              "online": {
+                "easy": "6-39",
+                "normal": "5-32",
+                "hardest": "1-60",
+                "inferno": "1-26"
+              },
+              "missionPack1": {
+                "hardest": "1-13"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "Eclat 10",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "12x10",
+              "Range": "375",
+              "Accuracy": "S++",
+              "Reload": "1",
+              "Energy": "3",
+              "Speed": "300",
+              "TDPS": "120.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "3",
+            "name": "Thunder Bow 10",
+            "stats": {
+              "Capacity": "14",
+              "ROF": "1",
+              "Damage": "18x10",
+              "Range": "275",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "60",
+              "Speed": "300",
+              "DPS": "180.0",
+              "TDPS": "168.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "15-44",
+                "normal": "12-36",
+                "hardest": "1-60",
+                "inferno": "1-27"
+              },
+              "online": {
+                "easy": "16-49",
+                "normal": "13-39",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "missionPack1": {
+                "hardest": "1-15"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "4",
+            "name": "Idunn-B",
+            "stats": {
+              "Capacity": "170",
+              "ROF": "10",
+              "Damage": "21",
+              "Range": "113",
+              "Accuracy": "S++",
+              "Reload": "2",
+              "Energy": "60",
+              "Speed": "150",
+              "DPS": "210.0",
+              "TDPS": "188.9"
+            },
+            "drops": {
+              "offline": {
+                "easy": "19-49",
+                "normal": "16-39",
+                "hardest": "1-63",
+                "inferno": "1-29"
+              },
+              "online": {
+                "easy": "21-54",
+                "normal": "17-43",
+                "hardest": "1-69",
+                "inferno": "1-32"
+              },
+              "missionPack1": {
+                "hardest": "1-16"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "7",
+            "name": "Idunn-C Custom",
+            "stats": {
+              "Capacity": "150",
+              "ROF": "10",
+              "Damage": "23",
+              "Range": "138",
+              "Accuracy": "A+",
+              "Reload": "2.5",
+              "Energy": "50",
+              "Speed": "150",
+              "DPS": "230.0",
+              "TDPS": "198.3"
+            },
+            "drops": {
+              "offline": {
+                "easy": "32-62",
+                "normal": "26-50",
+                "hard": "1-1",
+                "hardest": "1-71",
+                "inferno": "1-34"
+              },
+              "online": {
+                "easy": "35-68",
+                "normal": "29-55",
+                "hard": "1-1",
+                "hardest": "1-79",
+                "inferno": "1-37"
+              },
+              "missionPack1": {
+                "easy": "1-5",
+                "normal": "1-3",
+                "hardest": "1-19"
+              },
+              "missionPack2": {
+                "easy": "1-2",
+                "normal": "1-2",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "11",
+            "name": "Eclat 20",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "12x20",
+              "Range": "375",
+              "Accuracy": "S++",
+              "Reload": "1",
+              "Energy": "7",
+              "Speed": "300",
+              "TDPS": "240.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "50-89",
+                "normal": "40-64",
+                "hard": "1-14",
+                "hardest": "1-83",
+                "inferno": "1-41"
+              },
+              "online": {
+                "easy": "55-88",
+                "normal": "44-70",
+                "hard": "1-15",
+                "hardest": "1-91",
+                "inferno": "1-45"
+              },
+              "missionPack1": {
+                "easy": "1-19",
+                "normal": "1-11",
+                "hardest": "1-23"
+              },
+              "missionPack2": {
+                "easy": "1-5",
+                "normal": "1-5",
+                "hardest": "1-14"
+              }
+            }
+          },
+          {
+            "lv": "13",
+            "name": "Thunder Bow 15",
+            "stats": {
+              "Capacity": "15",
+              "ROF": "1",
+              "Damage": "21x15",
+              "Range": "275",
+              "Accuracy": "C",
+              "Reload": "2",
+              "Energy": "60",
+              "Speed": "300",
+              "DPS": "315.0",
+              "TDPS": "295.3"
+            },
+            "drops": {
+              "offline": {
+                "easy": "59-88",
+                "normal": "47-71",
+                "hard": "1-20",
+                "hardest": "1-88",
+                "inferno": "1-44"
+              },
+              "online": {
+                "easy": "65-97",
+                "normal": "52-78",
+                "hard": "1-22",
+                "hardest": "1-97",
+                "inferno": "1-49"
+              },
+              "missionPack1": {
+                "easy": "3-25",
+                "normal": "2-15",
+                "hardest": "1-25"
+              },
+              "missionPack2": {
+                "easy": "2-7",
+                "normal": "2-7",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "18",
+            "name": "Thunder Bow 15S",
+            "stats": {
+              "Capacity": "10",
+              "ROF": "1",
+              "Damage": "30x15",
+              "Range": "275",
+              "Accuracy": "C",
+              "Reload": "1.5",
+              "Energy": "45",
+              "Speed": "300",
+              "DPS": "450.0",
+              "TDPS": "428.6"
+            },
+            "drops": {
+              "offline": {
+                "easy": "81-89",
+                "normal": "65-88",
+                "hard": "1-35",
+                "hardest": "1-89",
+                "inferno": "1-53"
+              },
+              "online": {
+                "easy": "89-98",
+                "normal": "71-98",
+                "hard": "1-38",
+                "hardest": "1-98",
+                "inferno": "1-59"
+              },
+              "missionPack1": {
+                "easy": "20-26",
+                "normal": "12-25",
+                "hardest": "1-26",
+                "inferno": "1-5"
+              },
+              "missionPack2": {
+                "easy": "6-11",
+                "normal": "6-11",
+                "hardest": "1-18",
+                "inferno": "1-5"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "Idunn-D Custom",
+            "stats": {
+              "Capacity": "165",
+              "ROF": "15",
+              "Damage": "60",
+              "Range": "193",
+              "Accuracy": "A+",
+              "Reload": "3",
+              "Energy": "48",
+              "Speed": "210",
+              "DPS": "900.0",
+              "TDPS": "710.5"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "30",
+            "name": "Thunder Bow 20",
+            "stats": {
+              "Capacity": "20",
+              "ROF": "1",
+              "Damage": "45x20",
+              "Range": "275",
+              "Accuracy": "C",
+              "Reload": "3",
+              "Energy": "59",
+              "Speed": "300",
+              "DPS": "900.0",
+              "TDPS": "818.2"
+            },
+            "drops": {
+              "offline": {
+                "hard": "28-72",
+                "hardest": "1-89",
+                "inferno": "1-74"
+              },
+              "online": {
+                "hard": "31-79",
+                "hardest": "1-98",
+                "inferno": "1-82"
+              },
+              "missionPack1": {
+                "hard": "1-16",
+                "hardest": "1-26",
+                "inferno": "1-17"
+              },
+              "missionPack2": {
+                "easy": "17-22",
+                "normal": "17-22",
+                "hard": "1-8",
+                "hardest": "1-23",
+                "inferno": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "33",
+            "name": "Grom X",
+            "stats": {
+              "Capacity": "30",
+              "ROF": "3",
+              "Damage": "690",
+              "Range": "333",
+              "Accuracy": "K",
+              "Reload": "10",
+              "Energy": "59",
+              "Speed": "210",
+              "DPS": "2070.0",
+              "TDPS": "1052.5"
+            },
+            "drops": {
+              "offline": {
+                "hard": "37-81",
+                "hardest": "1-89",
+                "inferno": "1-80"
+              },
+              "online": {
+                "hard": "41-89",
+                "hardest": "1-98",
+                "inferno": "1-88"
+              },
+              "missionPack1": {
+                "hard": "1-21",
+                "hardest": "1-26",
+                "inferno": "1-20"
+              },
+              "missionPack2": {
+                "easy": "20-23",
+                "normal": "20-23",
+                "hard": "1-10",
+                "hardest": "1-23",
+                "inferno": "1-18"
+              }
+            }
+          },
+          {
+            "lv": "38",
+            "name": "Grom SS",
+            "stats": {
+              "Capacity": "30",
+              "ROF": "3",
+              "Damage": "540",
+              "Range": "298",
+              "Accuracy": "B-",
+              "Reload": "8",
+              "Energy": "62",
+              "Speed": "210",
+              "DPS": "1620.0",
+              "TDPS": "917.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "53-89",
+                "hardest": "1-89",
+                "inferno": "1-88"
+              },
+              "online": {
+                "hard": "58-98",
+                "hardest": "1-98",
+                "inferno": "1-97"
+              },
+              "missionPack1": {
+                "hard": "6-26",
+                "hardest": "1-26",
+                "inferno": "1-25"
+              },
+              "missionPack2": {
+                "hard": "4-14",
+                "hardest": "1-23",
+                "inferno": "1-22"
+              }
+            }
+          },
+          {
+            "lv": "43",
+            "name": "Thunder Bow 20R",
+            "stats": {
+              "Capacity": "24",
+              "ROF": "2",
+              "Damage": "38x20",
+              "Range": "275",
+              "Accuracy": "C-",
+              "Reload": "3",
+              "Energy": "71",
+              "Speed": "300",
+              "DPS": "1520.0",
+              "TDPS": "1257.9"
+            },
+            "drops": {
+              "offline": {
+                "hard": "68-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "75-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "15-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "8-18",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "47",
+            "name": "Idunn-E Custom",
+            "stats": {
+              "Capacity": "180",
+              "ROF": "20",
+              "Damage": "80",
+              "Range": "123",
+              "Accuracy": "A+",
+              "Reload": "2.5",
+              "Energy": "55",
+              "Speed": "210",
+              "DPS": "1600.0",
+              "TDPS": "1257.6"
+            },
+            "drops": {
+              "offline": {
+                "hard": "80-89",
+                "hardest": "10-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "88-98",
+                "hardest": "11-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "21-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "11-22",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "52",
+            "name": "Eclat 30",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "120x30",
+              "Range": "325",
+              "Accuracy": "S++",
+              "Reload": "1.2",
+              "Energy": "11",
+              "Speed": "300",
+              "TDPS": "3000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "24-89",
+                "inferno": "5-89"
+              },
+              "online": {
+                "hardest": "27-98",
+                "inferno": "5-98"
+              },
+              "missionPack1": {
+                "hardest": "3-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "15-23",
+                "hardest": "3-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "57",
+            "name": "Idunn-E Custom 2",
+            "stats": {
+              "Capacity": "180",
+              "ROF": "20",
+              "Damage": "110",
+              "Range": "123",
+              "Accuracy": "A+",
+              "Reload": "2.5",
+              "Energy": "60",
+              "Speed": "210",
+              "DPS": "2200.0",
+              "TDPS": "1729.3"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "38-89",
+                "inferno": "14-89"
+              },
+              "online": {
+                "hardest": "42-98",
+                "inferno": "15-98"
+              },
+              "missionPack1": {
+                "hardest": "8-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "19-23",
+                "hardest": "6-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "67",
+            "name": "Thunder Bow 30",
+            "stats": {
+              "Capacity": "11",
+              "ROF": "1.2",
+              "Damage": "110x30",
+              "Range": "600",
+              "Accuracy": "C",
+              "Reload": "2.33",
+              "Energy": "50",
+              "Speed": "480",
+              "DPS": "3960.0",
+              "TDPS": "3403.1"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "67-89",
+                "inferno": "31-89"
+              },
+              "online": {
+                "hardest": "73-98",
+                "inferno": "34-98"
+              },
+              "missionPack1": {
+                "hardest": "18-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "11-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "75",
+            "name": "Eclat LIM",
+            "stats": {
+              "Capacity": "1",
+              "Damage": "200x30",
+              "Range": "325",
+              "Accuracy": "S++",
+              "Reload": "1.2",
+              "Energy": "12",
+              "Speed": "300",
+              "TDPS": "5000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "89-89",
+                "inferno": "45-89"
+              },
+              "online": {
+                "hardest": "98-98",
+                "inferno": "50-98"
+              },
+              "missionPack1": {
+                "hardest": "26-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "16-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "90",
+            "name": "Idunn-FF",
+            "stats": {
+              "Capacity": "350",
+              "ROF": "30",
+              "Damage": "150",
+              "Range": "225",
+              "Accuracy": "A+",
+              "Reload": "3.5",
+              "Energy": "55",
+              "Speed": "300",
+              "DPS": "4500.0",
+              "TDPS": "3469.2"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "72-89"
+              },
+              "online": {
+                "inferno": "79-98"
+              },
+              "missionPack1": {
+                "inferno": "16-26"
+              },
+              "missionPack2": {
+                "inferno": "15-23"
+              }
+            }
+          },
+          {
+            "lv": "92",
+            "name": "Thunder Bow XD",
+            "stats": {
+              "Capacity": "11",
+              "ROF": "1.5",
+              "Damage": "130x30",
+              "Range": "600",
+              "Accuracy": "C",
+              "Reload": "2.7",
+              "Energy": "55",
+              "Speed": "480",
+              "DPS": "5850.0",
+              "TDPS": "4580.1"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "75-89"
+              },
+              "online": {
+                "inferno": "83-98"
+              },
+              "missionPack1": {
+                "inferno": "18-26"
+              },
+              "missionPack2": {
+                "inferno": "16-23"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "Particle Cannons",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Damage",
+          "Range",
+          "Accuracy",
+          "Reload",
+          "Energy",
+          "Speed",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "0",
+            "name": "Ixion",
+            "stats": {
+              "Damage": "12",
+              "Range": "200",
+              "Accuracy": "B",
+              "Reload": "0.08",
+              "Energy": "1.1",
+              "Speed": "120",
+              "TDPS": "144.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "1",
+            "name": "Ixion 2-Way",
+            "stats": {
+              "Damage": "12x2",
+              "Range": "200",
+              "Accuracy": "B",
+              "Reload": "0.08",
+              "Energy": "0.85",
+              "Speed": "120",
+              "TDPS": "288.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "6-36",
+                "normal": "5-29",
+                "hardest": "1-54",
+                "inferno": "1-23"
+              },
+              "online": {
+                "easy": "6-39",
+                "normal": "5-32",
+                "hardest": "1-60",
+                "inferno": "1-26"
+              },
+              "missionPack1": {
+                "hardest": "1-13"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "3",
+            "name": "Ixion MX",
+            "stats": {
+              "Damage": "27",
+              "Range": "200",
+              "Accuracy": "B",
+              "Reload": "0.2",
+              "Speed": "120",
+              "TDPS": "135.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "15-44",
+                "normal": "12-36",
+                "hardest": "1-60",
+                "inferno": "1-27"
+              },
+              "online": {
+                "easy": "16-49",
+                "normal": "13-39",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "missionPack1": {
+                "hardest": "1-15"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "Ixion Mark II",
+            "stats": {
+              "Damage": "18",
+              "Range": "200",
+              "Accuracy": "B",
+              "Reload": "0.08",
+              "Energy": "0.75",
+              "Speed": "120",
+              "TDPS": "216.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "8",
+            "name": "Ixion 3-Way",
+            "stats": {
+              "Damage": "9x3",
+              "Range": "200",
+              "Accuracy": "A",
+              "Reload": "0.08",
+              "Energy": "1.1",
+              "Speed": "120",
+              "TDPS": "324.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "37-66",
+                "normal": "30-53",
+                "hard": "1-4",
+                "hardest": "1-74",
+                "inferno": "1-36"
+              },
+              "online": {
+                "easy": "40-73",
+                "normal": "33-59",
+                "hard": "1-5",
+                "hardest": "1-82",
+                "inferno": "1-39"
+              },
+              "missionPack1": {
+                "easy": "1-9",
+                "normal": "1-5",
+                "hardest": "1-20"
+              },
+              "missionPack2": {
+                "easy": "1-3",
+                "normal": "1-3",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "8",
+            "name": "Power Stinger",
+            "stats": {
+              "Damage": "16",
+              "Range": "200",
+              "Accuracy": "B-",
+              "Reload": "0.08",
+              "Energy": "0.75",
+              "Speed": "120",
+              "TDPS": "192.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "37-66",
+                "normal": "30-53",
+                "hard": "1-4",
+                "hardest": "1-74",
+                "inferno": "1-36"
+              },
+              "online": {
+                "easy": "40-73",
+                "normal": "33-59",
+                "hard": "1-5",
+                "hardest": "1-82",
+                "inferno": "1-39"
+              },
+              "missionPack1": {
+                "easy": "1-9",
+                "normal": "1-5",
+                "hardest": "1-20"
+              },
+              "missionPack2": {
+                "easy": "1-3",
+                "normal": "1-3",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "12",
+            "name": "Ixion Wide",
+            "stats": {
+              "Damage": "25x2",
+              "Range": "200",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "0.95",
+              "Speed": "120",
+              "TDPS": "600.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "54-84",
+                "normal": "44-67",
+                "hard": "1-17",
+                "hardest": "1-86",
+                "inferno": "1-43"
+              },
+              "online": {
+                "easy": "60-93",
+                "normal": "48-74",
+                "hard": "1-18",
+                "hardest": "1-94",
+                "inferno": "1-47"
+              },
+              "missionPack1": {
+                "easy": "1-22",
+                "normal": "1-13",
+                "hardest": "1-24"
+              },
+              "missionPack2": {
+                "easy": "1-6",
+                "normal": "1-6",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "16",
+            "name": "Ixion 5-Way",
+            "stats": {
+              "Damage": "10x5",
+              "Range": "180",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "1.4",
+              "Speed": "120",
+              "TDPS": "600.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "72-89",
+                "normal": "58-81",
+                "hard": "1-29",
+                "hardest": "1-89",
+                "inferno": "1-50"
+              },
+              "online": {
+                "easy": "79-98",
+                "normal": "64-90",
+                "hard": "1-32",
+                "hardest": "1-98",
+                "inferno": "1-55"
+              },
+              "missionPack1": {
+                "easy": "13-26",
+                "normal": "8-21",
+                "hardest": "1-26",
+                "inferno": "1-3"
+              },
+              "missionPack2": {
+                "easy": "5-10",
+                "normal": "5-10",
+                "hardest": "1-17",
+                "inferno": "1-3"
+              }
+            }
+          },
+          {
+            "lv": "22",
+            "name": "Ixion 4-Way",
+            "stats": {
+              "Damage": "19x4",
+              "Range": "180",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "912.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "79-89",
+                "hard": "4-47",
+                "hardest": "1-89",
+                "inferno": "1-60"
+              },
+              "online": {
+                "normal": "87-98",
+                "hard": "4-52",
+                "hardest": "1-98",
+                "inferno": "1-66"
+              },
+              "missionPack1": {
+                "normal": "20-26",
+                "hard": "1-3",
+                "hardest": "1-26",
+                "inferno": "1-9"
+              },
+              "missionPack2": {
+                "easy": "10-15",
+                "normal": "10-15",
+                "hard": "1-2",
+                "hardest": "1-20",
+                "inferno": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "23",
+            "name": "Dynastrike",
+            "stats": {
+              "Damage": "24x8",
+              "Range": "200",
+              "Accuracy": "B-",
+              "Reload": "0.25",
+              "Energy": "2.7",
+              "Speed": "120",
+              "TDPS": "768.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "82-89",
+                "hard": "7-50",
+                "hardest": "1-89",
+                "inferno": "1-62"
+              },
+              "online": {
+                "normal": "91-98",
+                "hard": "7-55",
+                "hardest": "1-98",
+                "inferno": "1-68"
+              },
+              "missionPack1": {
+                "normal": "22-26",
+                "hard": "1-5",
+                "hardest": "1-26",
+                "inferno": "1-10"
+              },
+              "missionPack2": {
+                "easy": "11-16",
+                "normal": "11-16",
+                "hard": "1-2",
+                "hardest": "1-21",
+                "inferno": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "28",
+            "name": "Ixion Mark III",
+            "stats": {
+              "Damage": "87",
+              "Range": "200",
+              "Accuracy": "B-",
+              "Reload": "0.08",
+              "Energy": "0.7",
+              "Speed": "120",
+              "TDPS": "1044.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "22-66",
+                "hardest": "1-89",
+                "inferno": "1-71"
+              },
+              "online": {
+                "hard": "24-72",
+                "hardest": "1-98",
+                "inferno": "1-78"
+              },
+              "missionPack1": {
+                "hard": "1-13",
+                "hardest": "1-26",
+                "inferno": "1-15"
+              },
+              "missionPack2": {
+                "easy": "15-20",
+                "normal": "15-20",
+                "hard": "1-6",
+                "hardest": "1-23",
+                "inferno": "1-14"
+              }
+            }
+          },
+          {
+            "lv": "35",
+            "name": "Power Stinger D",
+            "stats": {
+              "Damage": "60",
+              "Range": "200",
+              "Accuracy": "B-",
+              "Reload": "0.07",
+              "Energy": "0.6",
+              "Speed": "120",
+              "TDPS": "900.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "44-87",
+                "hardest": "1-89",
+                "inferno": "1-83"
+              },
+              "online": {
+                "hard": "48-96",
+                "hardest": "1-98",
+                "inferno": "1-92"
+              },
+              "missionPack1": {
+                "hard": "1-25",
+                "hardest": "1-26",
+                "inferno": "1-22"
+              },
+              "missionPack2": {
+                "easy": "21-23",
+                "normal": "21-23",
+                "hard": "1-12",
+                "hardest": "1-23",
+                "inferno": "1-20"
+              }
+            }
+          },
+          {
+            "lv": "36",
+            "name": "Ixion 6-Way",
+            "stats": {
+              "Damage": "45x6",
+              "Range": "180",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "3240.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "47-89",
+                "hardest": "1-89",
+                "inferno": "1-85"
+              },
+              "online": {
+                "hard": "51-98",
+                "hardest": "1-98",
+                "inferno": "1-94"
+              },
+              "missionPack1": {
+                "hard": "3-26",
+                "hardest": "1-26",
+                "inferno": "1-23"
+              },
+              "missionPack2": {
+                "easy": "22-23",
+                "normal": "22-23",
+                "hard": "2-13",
+                "hardest": "1-23",
+                "inferno": "1-21"
+              }
+            }
+          },
+          {
+            "lv": "42",
+            "name": "Dynastrike X",
+            "stats": {
+              "Damage": "30x12",
+              "Range": "260",
+              "Accuracy": "B-",
+              "Reload": "0.17",
+              "Energy": "10",
+              "Speed": "120",
+              "TDPS": "2160.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "65-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "72-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "13-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "7-18",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "46",
+            "name": "Ixion 6-Way S",
+            "stats": {
+              "Damage": "30x6",
+              "Range": "180",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "2160.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "77-89",
+                "hardest": "7-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "85-98",
+                "hardest": "8-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "20-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "10-21",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "47",
+            "name": "Dynastrike Z",
+            "stats": {
+              "Damage": "36x14",
+              "Range": "260",
+              "Accuracy": "C",
+              "Reload": "0.03",
+              "Energy": "9",
+              "Speed": "120",
+              "TDPS": "15120.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "80-89",
+                "hardest": "10-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "88-98",
+                "hardest": "11-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "21-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "11-22",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "52",
+            "name": "Dynastrike α",
+            "stats": {
+              "Damage": "55x8",
+              "Range": "260",
+              "Accuracy": "B-",
+              "Reload": "0.1",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "4400.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "24-89",
+                "inferno": "5-89"
+              },
+              "online": {
+                "hardest": "27-98",
+                "inferno": "5-98"
+              },
+              "missionPack1": {
+                "hardest": "3-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "15-23",
+                "hardest": "3-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "57",
+            "name": "Ixion 9-Way",
+            "stats": {
+              "Damage": "45x9",
+              "Range": "250",
+              "Accuracy": "A+",
+              "Reload": "0.08",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "4860.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "38-89",
+                "inferno": "14-89"
+              },
+              "online": {
+                "hardest": "42-98",
+                "inferno": "15-98"
+              },
+              "missionPack1": {
+                "hardest": "8-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "19-23",
+                "hardest": "6-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "62",
+            "name": "Power Stinger S",
+            "stats": {
+              "Damage": "60x8",
+              "Range": "200",
+              "Accuracy": "B",
+              "Reload": "0.17",
+              "Energy": "2",
+              "Speed": "120",
+              "TDPS": "2880.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "53-89",
+                "inferno": "23-89"
+              },
+              "online": {
+                "hardest": "58-98",
+                "inferno": "25-98"
+              },
+              "missionPack1": {
+                "hardest": "13-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "23-23",
+                "hardest": "9-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "65",
+            "name": "Ixion Mark IV",
+            "stats": {
+              "Damage": "370",
+              "Range": "300",
+              "Accuracy": "A",
+              "Reload": "0.08",
+              "Energy": "0.7",
+              "Speed": "120",
+              "TDPS": "4440.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "61-89",
+                "inferno": "28-89"
+              },
+              "online": {
+                "hardest": "67-98",
+                "inferno": "31-98"
+              },
+              "missionPack1": {
+                "hardest": "16-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "10-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "77",
+            "name": "Ixion Mark X",
+            "stats": {
+              "Damage": "75x9",
+              "Range": "300",
+              "Accuracy": "A",
+              "Reload": "0.08",
+              "Energy": "1.2",
+              "Speed": "120",
+              "TDPS": "8100.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "49-89"
+              },
+              "online": {
+                "inferno": "54-98"
+              },
+              "missionPack1": {
+                "inferno": "3-26"
+              },
+              "missionPack2": {
+                "hardest": "17-23",
+                "inferno": "3-23"
+              }
+            }
+          },
+          {
+            "lv": "87",
+            "name": "Luxard",
+            "stats": {
+              "Damage": "90x9",
+              "Range": "300",
+              "Accuracy": "A",
+              "Reload": "0.08",
+              "Energy": "1.3",
+              "Speed": "120",
+              "TDPS": "9720.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "67-89"
+              },
+              "online": {
+                "inferno": "73-98"
+              },
+              "missionPack1": {
+                "inferno": "13-26"
+              },
+              "missionPack2": {
+                "hardest": "23-23",
+                "inferno": "12-23"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "Sniper Weapons",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Damage",
+          "Range",
+          "Accuracy",
+          "Reload",
+          "Energy",
+          "Speed",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "0",
+            "name": "Proto Thunder Sniper",
+            "stats": {
+              "Damage": "50x2",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.5",
+              "Energy": "15",
+              "Speed": "1200",
+              "TDPS": "66.7"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "0",
+            "name": "LRSL-33",
+            "stats": {
+              "Damage": "0.4",
+              "Range": "450",
+              "Accuracy": "S++",
+              "Energy": "0.15",
+              "Speed": "2700",
+              "TDPS": "24.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "LRSL-34",
+            "stats": {
+              "Damage": "0.6",
+              "Range": "450",
+              "Accuracy": "A+",
+              "Energy": "0.15",
+              "Speed": "2700",
+              "TDPS": "36.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "3",
+            "name": "Thunder Sniper A",
+            "stats": {
+              "Damage": "50x3",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.42",
+              "Energy": "15",
+              "Speed": "1200",
+              "TDPS": "105.9"
+            },
+            "drops": {
+              "offline": {
+                "easy": "15-44",
+                "normal": "12-36",
+                "hardest": "1-60",
+                "inferno": "1-27"
+              },
+              "online": {
+                "easy": "16-49",
+                "normal": "13-39",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "missionPack1": {
+                "hardest": "1-15"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "LRSL-35",
+            "stats": {
+              "Damage": "0.9",
+              "Range": "450",
+              "Accuracy": "B-",
+              "Energy": "0.5",
+              "Speed": "2700",
+              "TDPS": "54.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "7",
+            "name": "LRSL-36",
+            "stats": {
+              "Damage": "4",
+              "Range": "500",
+              "Accuracy": "S++",
+              "Energy": "0.22",
+              "Speed": "3000",
+              "TDPS": "240.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "32-62",
+                "normal": "26-50",
+                "hard": "1-1",
+                "hardest": "1-71",
+                "inferno": "1-34"
+              },
+              "online": {
+                "easy": "35-68",
+                "normal": "29-55",
+                "hard": "1-1",
+                "hardest": "1-79",
+                "inferno": "1-37"
+              },
+              "missionPack1": {
+                "easy": "1-5",
+                "normal": "1-3",
+                "hardest": "1-19"
+              },
+              "missionPack2": {
+                "easy": "1-2",
+                "normal": "1-2",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "10",
+            "name": "Monster",
+            "stats": {
+              "Damage": "500",
+              "Range": "1200",
+              "Accuracy": "S++",
+              "Energy": "30",
+              "Speed": "2400",
+              "TDPS": "30000.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "45-75",
+                "normal": "37-60",
+                "hard": "1-10",
+                "hardest": "1-80",
+                "inferno": "1-39"
+              },
+              "online": {
+                "easy": "50-83",
+                "normal": "40-66",
+                "hard": "1-11",
+                "hardest": "1-88",
+                "inferno": "1-43"
+              },
+              "missionPack1": {
+                "easy": "1-15",
+                "normal": "1-9",
+                "hardest": "1-22"
+              },
+              "missionPack2": {
+                "easy": "1-4",
+                "normal": "1-4",
+                "hardest": "1-13"
+              }
+            }
+          },
+          {
+            "lv": "11",
+            "name": "Thunder Sniper B",
+            "stats": {
+              "Damage": "70x3",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.5",
+              "Energy": "16",
+              "Speed": "1200",
+              "TDPS": "140.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "50-80",
+                "normal": "40-64",
+                "hard": "1-14",
+                "hardest": "1-83",
+                "inferno": "1-41"
+              },
+              "online": {
+                "easy": "55-88",
+                "normal": "44-70",
+                "hard": "1-15",
+                "hardest": "1-91",
+                "inferno": "1-45"
+              },
+              "missionPack1": {
+                "easy": "1-19",
+                "normal": "1-11",
+                "hardest": "1-23"
+              },
+              "missionPack2": {
+                "easy": "1-5",
+                "normal": "1-5",
+                "hardest": "1-14"
+              }
+            }
+          },
+          {
+            "lv": "12",
+            "name": "Thunder Sniper 15",
+            "stats": {
+              "Damage": "20x15",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.5",
+              "Energy": "20",
+              "Speed": "1200",
+              "TDPS": "200.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "54-84",
+                "normal": "44-67",
+                "hard": "1-17",
+                "hardest": "1-86",
+                "inferno": "1-43"
+              },
+              "online": {
+                "easy": "60-93",
+                "normal": "48-74",
+                "hard": "1-18",
+                "hardest": "1-94",
+                "inferno": "1-47"
+              },
+              "missionPack1": {
+                "easy": "1-22",
+                "normal": "1-13",
+                "hardest": "1-24"
+              },
+              "missionPack2": {
+                "easy": "1-6",
+                "normal": "1-6",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "15",
+            "name": "Thunder Sniper C",
+            "stats": {
+              "Damage": "100x3",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.53",
+              "Energy": "17",
+              "Speed": "1200",
+              "TDPS": "195.7"
+            },
+            "drops": {
+              "offline": {
+                "easy": "67-89",
+                "normal": "54-78",
+                "hard": "1-26",
+                "hardest": "1-89",
+                "inferno": "1-48"
+              },
+              "online": {
+                "easy": "74-98",
+                "normal": "60-86",
+                "hard": "1-28",
+                "hardest": "1-98",
+                "inferno": "1-53"
+              },
+              "missionPack1": {
+                "easy": "10-26",
+                "normal": "6-19",
+                "hardest": "1-26",
+                "inferno": "1-2"
+              },
+              "missionPack2": {
+                "easy": "4-9",
+                "normal": "4-9",
+                "hardest": "1-16",
+                "inferno": "1-2"
+              }
+            }
+          },
+          {
+            "lv": "17",
+            "name": "Thunder Sniper R",
+            "stats": {
+              "Damage": "30",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "0.1",
+              "Energy": "1.6",
+              "Speed": "1200",
+              "TDPS": "300.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "76-89",
+                "normal": "61-85",
+                "hard": "1-32",
+                "hardest": "1-89",
+                "inferno": "1-52"
+              },
+              "online": {
+                "easy": "84-98",
+                "normal": "67-94",
+                "hard": "1-35",
+                "hardest": "1-98",
+                "inferno": "1-57"
+              },
+              "missionPack1": {
+                "easy": "16-26",
+                "normal": "10-23",
+                "hardest": "1-26",
+                "inferno": "1-4"
+              },
+              "missionPack2": {
+                "easy": "5-11",
+                "normal": "5-11",
+                "hardest": "1-18",
+                "inferno": "1-4"
+              }
+            }
+          },
+          {
+            "lv": "20",
+            "name": "LRSL-37",
+            "stats": {
+              "Damage": "8",
+              "Range": "600",
+              "Accuracy": "S+",
+              "Energy": "0.24",
+              "Speed": "3600",
+              "TDPS": "480.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "89-89",
+                "normal": "72-89",
+                "hard": "1-41",
+                "hardest": "1-89",
+                "inferno": "1-57"
+              },
+              "online": {
+                "easy": "98-98",
+                "normal": "79-98",
+                "hard": "1-45",
+                "hardest": "1-98",
+                "inferno": "1-63"
+              },
+              "missionPack1": {
+                "easy": "26-26",
+                "normal": "16-26",
+                "hardest": "1-26",
+                "inferno": "1-7"
+              },
+              "missionPack2": {
+                "easy": "8-13",
+                "normal": "8-13",
+                "hardest": "1-19",
+                "inferno": "1-7"
+              }
+            }
+          },
+          {
+            "lv": "30",
+            "name": "Raijin",
+            "stats": {
+              "Damage": "2000",
+              "Range": "3800",
+              "Accuracy": "S++",
+              "Reload": "3.33",
+              "Energy": "70",
+              "Speed": "2400",
+              "TDPS": "600.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "28-72",
+                "hardest": "1-89",
+                "inferno": "1-74"
+              },
+              "online": {
+                "hard": "31-79",
+                "hardest": "1-98",
+                "inferno": "1-82"
+              },
+              "missionPack1": {
+                "hard": "1-16",
+                "hardest": "1-26",
+                "inferno": "1-17"
+              },
+              "missionPack2": {
+                "easy": "17-22",
+                "normal": "17-22",
+                "hard": "1-8",
+                "hardest": "1-23",
+                "inferno": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "37",
+            "name": "LRSL-38",
+            "stats": {
+              "Damage": "10",
+              "Range": "600",
+              "Accuracy": "S++",
+              "Energy": "0.2",
+              "Speed": "3600",
+              "TDPS": "600.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "50-89",
+                "hardest": "1-89",
+                "inferno": "1-87"
+              },
+              "online": {
+                "hard": "55-98",
+                "hardest": "1-98",
+                "inferno": "1-96"
+              },
+              "missionPack1": {
+                "hard": "5-26",
+                "hardest": "1-26",
+                "inferno": "1-24"
+              },
+              "missionPack2": {
+                "easy": "23-23",
+                "normal": "23-23",
+                "hard": "3-14",
+                "hardest": "1-23",
+                "inferno": "1-22"
+              }
+            }
+          },
+          {
+            "lv": "37",
+            "name": "Thunder Sniper D",
+            "stats": {
+              "Damage": "200x4",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.1",
+              "Energy": "14",
+              "Speed": "1200",
+              "TDPS": "727.3"
+            },
+            "drops": {
+              "offline": {
+                "hard": "50-89",
+                "hardest": "1-89",
+                "inferno": "1-87"
+              },
+              "online": {
+                "hard": "55-98",
+                "hardest": "1-98",
+                "inferno": "1-96"
+              },
+              "missionPack1": {
+                "hard": "5-26",
+                "hardest": "1-26",
+                "inferno": "1-24"
+              },
+              "missionPack2": {
+                "easy": "23-23",
+                "normal": "23-23",
+                "hard": "3-14",
+                "hardest": "1-23",
+                "inferno": "1-22"
+              }
+            }
+          },
+          {
+            "lv": "42",
+            "name": "LRSL-S",
+            "stats": {
+              "Damage": "14",
+              "Range": "600",
+              "Accuracy": "A-",
+              "Energy": "0.25",
+              "Speed": "3600",
+              "TDPS": "840.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "65-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "72-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "13-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "7-18",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "45",
+            "name": "Thunder Sniper 6",
+            "stats": {
+              "Damage": "200x6",
+              "Range": "1900",
+              "Accuracy": "A+",
+              "Reload": "1.1",
+              "Energy": "24",
+              "Speed": "1200",
+              "TDPS": "1090.9"
+            },
+            "drops": {
+              "offline": {
+                "hard": "74-89",
+                "hardest": "4-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "82-98",
+                "hardest": "5-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "18-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "9-20",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "55",
+            "name": "Monster-S",
+            "stats": {
+              "Damage": "6000",
+              "Range": "1200",
+              "Accuracy": "A+",
+              "Energy": "39",
+              "Speed": "2400",
+              "TDPS": "360000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "33-89",
+                "inferno": "10-89"
+              },
+              "online": {
+                "hardest": "36-98",
+                "inferno": "11-98"
+              },
+              "missionPack1": {
+                "hardest": "6-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "17-23",
+                "hardest": "4-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "62",
+            "name": "Thunder Sniper 40",
+            "stats": {
+              "Damage": "200x40",
+              "Range": "1900",
+              "Accuracy": "B-",
+              "Reload": "2",
+              "Energy": "35",
+              "Speed": "1200",
+              "TDPS": "4000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "53-89",
+                "inferno": "23-89"
+              },
+              "online": {
+                "hardest": "58-98",
+                "inferno": "25-98"
+              },
+              "missionPack1": {
+                "hardest": "13-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "23-23",
+                "hardest": "9-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "70",
+            "name": "Thunder Sniper MX",
+            "stats": {
+              "Damage": "200x40",
+              "Range": "1900",
+              "Accuracy": "B-",
+              "Reload": "40",
+              "Speed": "1200",
+              "TDPS": "200.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "75-89",
+                "inferno": "37-89"
+              },
+              "online": {
+                "hardest": "83-98",
+                "inferno": "40-98"
+              },
+              "missionPack1": {
+                "hardest": "21-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "13-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "70",
+            "name": "LRSL-AC",
+            "stats": {
+              "Damage": "20",
+              "Range": "600",
+              "Accuracy": "S++",
+              "Energy": "0.2",
+              "Speed": "3600",
+              "TDPS": "1200.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "75-89",
+                "inferno": "37-89"
+              },
+              "online": {
+                "hardest": "83-98",
+                "inferno": "40-98"
+              },
+              "missionPack1": {
+                "hardest": "21-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "13-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "80",
+            "name": "SIG Sniper",
+            "stats": {
+              "Damage": "26",
+              "Range": "600",
+              "Accuracy": "S++",
+              "Energy": "0.2",
+              "Speed": "3600",
+              "TDPS": "1560.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "54-89"
+              },
+              "online": {
+                "inferno": "60-98"
+              },
+              "missionPack1": {
+                "inferno": "6-26"
+              },
+              "missionPack2": {
+                "hardest": "19-23",
+                "inferno": "6-23"
+              }
+            }
+          },
+          {
+            "lv": "92",
+            "name": "Gungnir",
+            "stats": {
+              "Damage": "50000x3",
+              "Range": "3600",
+              "Accuracy": "S++",
+              "Reload": "0.02",
+              "Energy": "720",
+              "Speed": "1200",
+              "TDPS": "9000000.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "75-89"
+              },
+              "online": {
+                "inferno": "83-98"
+              },
+              "missionPack1": {
+                "inferno": "18-26"
+              },
+              "missionPack2": {
+                "inferno": "16-23"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "Ranged Attacks",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Damage",
+          "Range",
+          "AOE",
+          "Accuracy",
+          "Energy",
+          "Reload",
+          "Speed",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "0",
+            "name": "E1 Plasma Launcher",
+            "stats": {
+              "Damage": "90",
+              "Range": "1800",
+              "AOE": "10",
+              "Accuracy": "B",
+              "Energy": "16",
+              "Reload": "1",
+              "Speed": "90",
+              "TDPS": "90.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "0",
+            "name": "Plasma Grenade A",
+            "stats": {
+              "Damage": "250",
+              "Range": "120",
+              "AOE": "7",
+              "Accuracy": "B-",
+              "Reload": "4",
+              "Speed": "6",
+              "TDPS": "62.5"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "0",
+            "name": "Plasma Shot",
+            "stats": {
+              "Damage": "7x10",
+              "Range": "400",
+              "AOE": "2",
+              "Accuracy": "B-",
+              "Energy": "8",
+              "Reload": "0.5",
+              "Speed": "240",
+              "TDPS": "140.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "0",
+            "name": "E2 Plasma Launcher",
+            "stats": {
+              "Damage": "150",
+              "Range": "2400",
+              "AOE": "10",
+              "Accuracy": "B",
+              "Energy": "16",
+              "Reload": "1",
+              "Speed": "120",
+              "TDPS": "150.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "1",
+            "name": "Plasma Grenade B",
+            "stats": {
+              "Damage": "260",
+              "Range": "120",
+              "AOE": "10",
+              "Accuracy": "B-",
+              "Reload": "5",
+              "Speed": "6",
+              "TDPS": "52.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "6-36",
+                "normal": "5-29",
+                "hardest": "1-54",
+                "inferno": "1-23"
+              },
+              "online": {
+                "easy": "6-39",
+                "normal": "5-32",
+                "hardest": "1-60",
+                "inferno": "1-26"
+              },
+              "missionPack1": {
+                "hardest": "1-13"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "E3 Plasma Launcher",
+            "stats": {
+              "Damage": "210",
+              "Range": "2040",
+              "AOE": "10",
+              "Accuracy": "B",
+              "Energy": "18",
+              "Reload": "1",
+              "Speed": "102",
+              "TDPS": "210.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "Dual Plasma Launcher",
+            "stats": {
+              "Damage": "100x2",
+              "Range": "1200",
+              "AOE": "10",
+              "Accuracy": "B",
+              "Energy": "15",
+              "Reload": "1",
+              "Speed": "60",
+              "TDPS": "200.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "Rapid Grenade",
+            "stats": {
+              "Damage": "320",
+              "Range": "1200",
+              "AOE": "5",
+              "Accuracy": "B-",
+              "Reload": "3",
+              "Speed": "60",
+              "TDPS": "106.7"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "10",
+            "name": "D Plasma Launcher",
+            "stats": {
+              "Damage": "400",
+              "Range": "1920",
+              "AOE": "15",
+              "Accuracy": "B",
+              "Energy": "18",
+              "Reload": "1",
+              "Speed": "48",
+              "TDPS": "400.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "45-75",
+                "normal": "37-60",
+                "hard": "1-10",
+                "hardest": "1-80",
+                "inferno": "1-39"
+              },
+              "online": {
+                "easy": "50-83",
+                "normal": "40-66",
+                "hard": "1-11",
+                "hardest": "1-88",
+                "inferno": "1-43"
+              },
+              "missionPack1": {
+                "easy": "1-15",
+                "normal": "1-9",
+                "hardest": "1-22"
+              },
+              "missionPack2": {
+                "easy": "1-4",
+                "normal": "1-4",
+                "hardest": "1-13"
+              }
+            }
+          },
+          {
+            "lv": "10",
+            "name": "E4 Plasma Launcher",
+            "stats": {
+              "Damage": "260",
+              "Range": "2040",
+              "AOE": "12",
+              "Accuracy": "B+",
+              "Energy": "16",
+              "Reload": "1",
+              "Speed": "102",
+              "TDPS": "260.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "45-75",
+                "normal": "37-60",
+                "hard": "1-10",
+                "hardest": "1-80",
+                "inferno": "1-39"
+              },
+              "online": {
+                "easy": "50-83",
+                "normal": "40-66",
+                "hard": "1-11",
+                "hardest": "1-88",
+                "inferno": "1-43"
+              },
+              "missionPack1": {
+                "easy": "1-15",
+                "normal": "1-9",
+                "hardest": "1-22"
+              },
+              "missionPack2": {
+                "easy": "1-4",
+                "normal": "1-4",
+                "hardest": "1-13"
+              }
+            }
+          },
+          {
+            "lv": "15",
+            "name": "Blast Launcher",
+            "stats": {
+              "Damage": "1000",
+              "Range": "7200",
+              "AOE": "20",
+              "Accuracy": "B",
+              "Energy": "120",
+              "Reload": "0.5",
+              "Speed": "360",
+              "TDPS": "2000.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "67-89",
+                "normal": "54-78",
+                "hard": "1-26",
+                "hardest": "1-89",
+                "inferno": "1-48"
+              },
+              "online": {
+                "easy": "74-98",
+                "normal": "60-86",
+                "hard": "1-28",
+                "hardest": "1-98",
+                "inferno": "1-53"
+              },
+              "missionPack1": {
+                "easy": "10-26",
+                "normal": "6-19",
+                "hardest": "1-26",
+                "inferno": "1-2"
+              },
+              "missionPack2": {
+                "easy": "4-9",
+                "normal": "4-9",
+                "hardest": "1-16",
+                "inferno": "1-2"
+              }
+            }
+          },
+          {
+            "lv": "16",
+            "name": "Blast Grenade",
+            "stats": {
+              "Damage": "1000",
+              "Range": "360",
+              "AOE": "15",
+              "Accuracy": "B-",
+              "Reload": "20",
+              "Speed": "18",
+              "TDPS": "50.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "72-89",
+                "normal": "58-81",
+                "hard": "1-29",
+                "hardest": "1-89",
+                "inferno": "1-50"
+              },
+              "online": {
+                "easy": "79-98",
+                "normal": "64-90",
+                "hard": "1-32",
+                "hardest": "1-98",
+                "inferno": "1-55"
+              },
+              "missionPack1": {
+                "easy": "13-26",
+                "normal": "8-21",
+                "hardest": "1-26",
+                "inferno": "1-3"
+              },
+              "missionPack2": {
+                "easy": "5-10",
+                "normal": "5-10",
+                "hardest": "1-17",
+                "inferno": "1-3"
+              }
+            }
+          },
+          {
+            "lv": "17",
+            "name": "3x Plasma Launcher",
+            "stats": {
+              "Damage": "140x3",
+              "Range": "1920",
+              "AOE": "10",
+              "Accuracy": "B",
+              "Energy": "20",
+              "Reload": "1",
+              "Speed": "96",
+              "TDPS": "420.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "76-89",
+                "normal": "61-85",
+                "hard": "1-32",
+                "hardest": "1-89",
+                "inferno": "1-52"
+              },
+              "online": {
+                "easy": "84-98",
+                "normal": "67-94",
+                "hard": "1-35",
+                "hardest": "1-98",
+                "inferno": "1-57"
+              },
+              "missionPack1": {
+                "easy": "16-26",
+                "normal": "10-23",
+                "hardest": "1-26",
+                "inferno": "1-4"
+              },
+              "missionPack2": {
+                "easy": "5-11",
+                "normal": "5-11",
+                "hardest": "1-18",
+                "inferno": "1-4"
+              }
+            }
+          },
+          {
+            "lv": "20",
+            "name": "D2 Plasma Launcher",
+            "stats": {
+              "Damage": "260",
+              "Range": "1320",
+              "AOE": "15",
+              "Accuracy": "B",
+              "Energy": "20",
+              "Reload": "1",
+              "Speed": "66",
+              "TDPS": "260.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "89-89",
+                "normal": "72-89",
+                "hard": "1-41",
+                "hardest": "1-89",
+                "inferno": "1-57"
+              },
+              "online": {
+                "easy": "98-98",
+                "normal": "79-98",
+                "hard": "1-45",
+                "hardest": "1-98",
+                "inferno": "1-63"
+              },
+              "missionPack1": {
+                "easy": "26-26",
+                "normal": "16-26",
+                "hardest": "1-26",
+                "inferno": "1-7"
+              },
+              "missionPack2": {
+                "easy": "8-13",
+                "normal": "8-13",
+                "hardest": "1-19",
+                "inferno": "1-7"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "Plasmafall",
+            "stats": {
+              "Damage": "400",
+              "Range": "1080",
+              "AOE": "15",
+              "Accuracy": "B",
+              "Energy": "13",
+              "Reload": "1",
+              "Speed": "54",
+              "TDPS": "400.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "M15 Plasma Launcher",
+            "stats": {
+              "Damage": "70x15",
+              "Range": "420",
+              "AOE": "2",
+              "Accuracy": "S++",
+              "Energy": "24",
+              "Reload": "1",
+              "Speed": "420",
+              "TDPS": "1050.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "26",
+            "name": "Wide Grenade 20",
+            "stats": {
+              "Damage": "65x20",
+              "Range": "120",
+              "AOE": "2",
+              "Accuracy": "F",
+              "Reload": "10",
+              "Speed": "6",
+              "TDPS": "130.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "16-59",
+                "hardest": "1-89",
+                "inferno": "1-67"
+              },
+              "online": {
+                "hard": "18-65",
+                "hardest": "1-98",
+                "inferno": "1-74"
+              },
+              "missionPack1": {
+                "hard": "1-10",
+                "hardest": "1-26",
+                "inferno": "1-13"
+              },
+              "missionPack2": {
+                "easy": "13-19",
+                "normal": "13-19",
+                "hard": "1-5",
+                "hardest": "1-23",
+                "inferno": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "29",
+            "name": "2x Plasma Launcher R",
+            "stats": {
+              "Damage": "200x2",
+              "Range": "400",
+              "AOE": "7",
+              "Accuracy": "B",
+              "Energy": "9",
+              "Reload": "0.5",
+              "Speed": "96",
+              "TDPS": "800.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "25-69",
+                "hardest": "1-89",
+                "inferno": "1-73"
+              },
+              "online": {
+                "hard": "28-76",
+                "hardest": "1-98",
+                "inferno": "1-80"
+              },
+              "missionPack1": {
+                "hard": "1-15",
+                "hardest": "1-26",
+                "inferno": "1-16"
+              },
+              "missionPack2": {
+                "easy": "16-21",
+                "normal": "16-12",
+                "hard": "1-7",
+                "hardest": "1-23",
+                "inferno": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "32",
+            "name": "Plasma Grenade SP",
+            "stats": {
+              "Damage": "200",
+              "Range": "1080",
+              "AOE": "20",
+              "Accuracy": "B-",
+              "Reload": "3",
+              "Speed": "54",
+              "TDPS": "66.7"
+            },
+            "drops": {
+              "offline": {
+                "hard": "34-78",
+                "hardest": "1-89",
+                "inferno": "1-78"
+              },
+              "online": {
+                "hard": "38-86",
+                "hardest": "1-98",
+                "inferno": "1-86"
+              },
+              "missionPack1": {
+                "hard": "1-20",
+                "hardest": "1-26",
+                "inferno": "1-19"
+              },
+              "missionPack2": {
+                "easy": "19-23",
+                "normal": "19-23",
+                "hard": "1-10",
+                "hardest": "1-23",
+                "inferno": "1-17"
+              }
+            }
+          },
+          {
+            "lv": "36",
+            "name": "E5 Plasma Launcher",
+            "stats": {
+              "Damage": "520",
+              "Range": "1200",
+              "AOE": "15",
+              "Accuracy": "B",
+              "Energy": "21",
+              "Reload": "1",
+              "Speed": "60",
+              "TDPS": "520.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "47-89",
+                "hardest": "1-89",
+                "inferno": "1-85"
+              },
+              "online": {
+                "hard": "51-98",
+                "hardest": "1-98",
+                "inferno": "1-94"
+              },
+              "missionPack1": {
+                "hard": "3-26",
+                "hardest": "1-26",
+                "inferno": "1-23"
+              },
+              "missionPack2": {
+                "easy": "22-23",
+                "normal": "22-23",
+                "hard": "2-13",
+                "hardest": "1-23",
+                "inferno": "1-21"
+              }
+            }
+          },
+          {
+            "lv": "40",
+            "name": "Plasma Grenade C",
+            "stats": {
+              "Damage": "650",
+              "Range": "2400",
+              "AOE": "15",
+              "Accuracy": "B-",
+              "Reload": "5",
+              "Speed": "120",
+              "TDPS": "130.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "59-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "65-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "10-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "5-16",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "41",
+            "name": "2x Plasma Launcher S",
+            "stats": {
+              "Damage": "310x2",
+              "Range": "400",
+              "AOE": "7",
+              "Accuracy": "B",
+              "Energy": "9",
+              "Reload": "0.5",
+              "Speed": "96",
+              "TDPS": "1240.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "62-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "68-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "11-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "6-17",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "45",
+            "name": "EX Plasma Launcher",
+            "stats": {
+              "Damage": "650",
+              "Range": "900",
+              "AOE": "25",
+              "Accuracy": "A+",
+              "Energy": "31",
+              "Reload": "1",
+              "Speed": "900",
+              "TDPS": "650.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "74-89",
+                "hardest": "4-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "82-98",
+                "hardest": "5-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "18-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "9-20",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "50",
+            "name": "EX3x Plasma Launcher",
+            "stats": {
+              "Damage": "650x3",
+              "Range": "900",
+              "AOE": "20",
+              "Accuracy": "A",
+              "Energy": "49",
+              "Reload": "1",
+              "Speed": "900",
+              "TDPS": "1950.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "89-89",
+                "hardest": "19-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "98-98",
+                "hardest": "20-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "26-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "13-23",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "55",
+            "name": "M30 Plasma Launcher",
+            "stats": {
+              "Damage": "260x30",
+              "Range": "420",
+              "AOE": "5",
+              "Accuracy": "S++",
+              "Energy": "26",
+              "Reload": "1",
+              "Speed": "420",
+              "TDPS": "7800.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "33-89",
+                "inferno": "10-89"
+              },
+              "online": {
+                "hardest": "36-98",
+                "inferno": "11-98"
+              },
+              "missionPack1": {
+                "hardest": "6-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "17-23",
+                "hardest": "4-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "60",
+            "name": "Wide Grenade 40",
+            "stats": {
+              "Damage": "400x40",
+              "Range": "120",
+              "AOE": "5",
+              "Accuracy": "F",
+              "Reload": "10",
+              "Speed": "6",
+              "TDPS": "1600.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "47-89",
+                "inferno": "19-89"
+              },
+              "online": {
+                "hardest": "52-98",
+                "inferno": "21-98"
+              },
+              "missionPack1": {
+                "hardest": "11-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "21-23",
+                "hardest": "7-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "62",
+            "name": "RSR Plasma Launcher",
+            "stats": {
+              "Damage": "1000",
+              "Range": "600",
+              "AOE": "15",
+              "Accuracy": "B",
+              "Energy": "B",
+              "Reload": "0.33",
+              "Speed": "150",
+              "TDPS": "3000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "53-89",
+                "inferno": "23-89"
+              },
+              "online": {
+                "hardest": "58-98",
+                "inferno": "25-98"
+              },
+              "missionPack1": {
+                "hardest": "13-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "23-23",
+                "hardest": "9-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "65",
+            "name": "Plasma Grenade F",
+            "stats": {
+              "Damage": "2300",
+              "Range": "840",
+              "AOE": "15",
+              "Accuracy": "B-",
+              "Reload": "5",
+              "Speed": "42",
+              "TDPS": "460.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "61-89",
+                "inferno": "28-89"
+              },
+              "online": {
+                "hardest": "67-98",
+                "inferno": "31-98"
+              },
+              "missionPack1": {
+                "hardest": "16-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "10-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "67",
+            "name": "XSX Plasma Launcher",
+            "stats": {
+              "Damage": "1500x4",
+              "Range": "1020",
+              "AOE": "22",
+              "Accuracy": "A+",
+              "Energy": "41",
+              "Reload": "1",
+              "Speed": "102",
+              "TDPS": "6000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "67-89",
+                "inferno": "31-89"
+              },
+              "online": {
+                "hardest": "73-98",
+                "inferno": "34-98"
+              },
+              "missionPack1": {
+                "hardest": "18-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "11-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "80",
+            "name": "Plasma Grenade Σ",
+            "stats": {
+              "Damage": "3200",
+              "Range": "840",
+              "AOE": "17",
+              "Accuracy": "B-",
+              "Energy": "100",
+              "Reload": "3",
+              "Speed": "42",
+              "TDPS": "1066.7"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "54-89"
+              },
+              "online": {
+                "inferno": "60-98"
+              },
+              "missionPack1": {
+                "inferno": "6-26"
+              },
+              "missionPack2": {
+                "hardest": "19-23",
+                "inferno": "6-23"
+              }
+            }
+          },
+          {
+            "lv": "87",
+            "name": "Plasmafall Σ",
+            "stats": {
+              "Damage": "2500x6",
+              "Range": "3600",
+              "AOE": "30",
+              "Accuracy": "A+",
+              "Energy": "75",
+              "Reload": "4",
+              "Speed": "360",
+              "TDPS": "3750.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "67-89"
+              },
+              "online": {
+                "inferno": "73-98"
+              },
+              "missionPack1": {
+                "inferno": "13-26"
+              },
+              "missionPack2": {
+                "hardest": "23-23",
+                "inferno": "12-23"
+              }
+            }
+          },
+          {
+            "lv": "92",
+            "name": "RZR Plasma Launcher",
+            "stats": {
+              "Damage": "3500",
+              "Range": "2160",
+              "AOE": "25",
+              "Accuracy": "B",
+              "Energy": "15",
+              "Reload": "1",
+              "Speed": "360",
+              "TDPS": "3500.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "75-89"
+              },
+              "online": {
+                "inferno": "83-98"
+              },
+              "missionPack1": {
+                "inferno": "18-26"
+              },
+              "missionPack2": {
+                "inferno": "16-23"
+              }
+            }
+          }
+        ]
       },
       {
         "type": "Homing Weapons",
-        "columns": [],
+        "columns": [
+          "Damage",
+          "Homing",
+          "Range",
+          "Lock",
+          "Reload",
+          "Energy",
+          "AOE",
+          "TDPS"
+        ],
         "weapons": [
-          "AACBABAASAA"
+          {
+            "lv": "0",
+            "name": "Mirage Zero",
+            "stats": {
+              "Damage": "30",
+              "Homing": "A",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "0.17",
+              "Energy": "4",
+              "AOE": "5",
+              "TDPS": "180.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "1-31",
+                "normal": "1-25",
+                "hardest": "1-52",
+                "inferno": "1-22"
+              },
+              "online": {
+                "easy": "1-34",
+                "normal": "1-28",
+                "hardest": "1-57",
+                "inferno": "1-24"
+              },
+              "missionPack1": {
+                "hardest": "1-12"
+              },
+              "missionPack2": {
+                "hardest": "1-8"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "Geist",
+            "stats": {
+              "Damage": "70",
+              "Homing": "A",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "1",
+              "Energy": "6",
+              "AOE": "10",
+              "TDPS": "70.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "5",
+            "name": "Rapid Mirage",
+            "stats": {
+              "Damage": "25",
+              "Homing": "C",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "0.1",
+              "Energy": "1.1",
+              "TDPS": "250.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "23-53",
+                "normal": "19-43",
+                "hardest": "1-66",
+                "inferno": "1-30"
+              },
+              "online": {
+                "easy": "26-59",
+                "normal": "21-47",
+                "hardest": "1-72",
+                "inferno": "1-33"
+              },
+              "missionPack1": {
+                "hardest": "1-17"
+              },
+              "missionPack2": {
+                "hardest": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "8",
+            "name": "Mirage 5-Way",
+            "stats": {
+              "Damage": "30x5",
+              "Homing": "B",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "1",
+              "Energy": "10",
+              "AOE": "5",
+              "TDPS": "150.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "37-66",
+                "normal": "30-53",
+                "hard": "1-4",
+                "hardest": "1-74",
+                "inferno": "1-36"
+              },
+              "online": {
+                "easy": "40-73",
+                "normal": "33-59",
+                "hard": "1-5",
+                "hardest": "1-82",
+                "inferno": "1-39"
+              },
+              "missionPack1": {
+                "easy": "1-9",
+                "normal": "1-5",
+                "hardest": "1-20"
+              },
+              "missionPack2": {
+                "easy": "1-3",
+                "normal": "1-3",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "13",
+            "name": "Geist 2",
+            "stats": {
+              "Damage": "200",
+              "Homing": "A",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "1",
+              "Energy": "7",
+              "AOE": "12",
+              "TDPS": "200.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "59-88",
+                "normal": "47-71",
+                "hard": "1-20",
+                "hardest": "1-88",
+                "inferno": "1-44"
+              },
+              "online": {
+                "easy": "65-97",
+                "normal": "52-78",
+                "hard": "1-22",
+                "hardest": "1-97",
+                "inferno": "1-49"
+              },
+              "missionPack1": {
+                "easy": "3-25",
+                "normal": "2-15",
+                "hardest": "1-25"
+              },
+              "missionPack2": {
+                "easy": "2-7",
+                "normal": "2-7",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "18",
+            "name": "Mirage 5-Way B",
+            "stats": {
+              "Damage": "75x5",
+              "Homing": "B",
+              "Range": "350",
+              "Lock": "0.07",
+              "Reload": "0.75",
+              "Energy": "14",
+              "AOE": "5",
+              "TDPS": "500.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "81-89",
+                "normal": "65-88",
+                "hard": "1-35",
+                "hardest": "1-89",
+                "inferno": "1-53"
+              },
+              "online": {
+                "easy": "89-98",
+                "normal": "71-98",
+                "hard": "1-38",
+                "hardest": "1-98",
+                "inferno": "1-59"
+              },
+              "missionPack1": {
+                "easy": "20-26",
+                "normal": "12-25",
+                "hardest": "1-26",
+                "inferno": "1-5"
+              },
+              "missionPack2": {
+                "easy": "6-11",
+                "normal": "6-11",
+                "hardest": "1-18",
+                "inferno": "1-5"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "Mirage Rumble",
+            "stats": {
+              "Damage": "75",
+              "Homing": "A",
+              "Range": "500",
+              "Lock": "0.07",
+              "Reload": "0.17",
+              "Energy": "2",
+              "AOE": "5",
+              "TDPS": "450.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "27",
+            "name": "Mirage 15",
+            "stats": {
+              "Damage": "15x15",
+              "Homing": "A",
+              "Range": "350",
+              "Lock": "0.05",
+              "Reload": "0.17",
+              "Energy": "3",
+              "TDPS": "1350.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "19-62",
+                "hardest": "1-89",
+                "inferno": "1-69"
+              },
+              "online": {
+                "hard": "21-69",
+                "hardest": "1-98",
+                "inferno": "1-76"
+              },
+              "missionPack1": {
+                "hard": "1-11",
+                "hardest": "1-26",
+                "inferno": "1-14"
+              },
+              "missionPack2": {
+                "easy": "14-19",
+                "normal": "14-19",
+                "hard": "1-6",
+                "hardest": "1-23",
+                "inferno": "1-13"
+              }
+            }
+          },
+          {
+            "lv": "31",
+            "name": "Psiblade",
+            "stats": {
+              "Damage": "600",
+              "Homing": "S",
+              "Range": "700",
+              "Lock": "2",
+              "Reload": "2",
+              "Energy": "40",
+              "AOE": "12",
+              "TDPS": "300.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "31-75",
+                "hardest": "1-89",
+                "inferno": "1-76"
+              },
+              "online": {
+                "hard": "34-82",
+                "hardest": "1-98",
+                "inferno": "1-84"
+              },
+              "missionPack1": {
+                "hard": "1-18",
+                "hardest": "1-26",
+                "inferno": "1-18"
+              },
+              "missionPack2": {
+                "easy": "18-23",
+                "normal": "18-23",
+                "hard": "1-9",
+                "hardest": "1-23",
+                "inferno": "1-16"
+              }
+            }
+          },
+          {
+            "lv": "37",
+            "name": "Geist 3",
+            "stats": {
+              "Damage": "200x3",
+              "Homing": "A",
+              "Range": "400",
+              "Lock": "0.07",
+              "Reload": "0.33",
+              "Energy": "4",
+              "AOE": "20",
+              "TDPS": "1800.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "50-89",
+                "hardest": "1-89",
+                "inferno": "1-87"
+              },
+              "online": {
+                "hard": "55-98",
+                "hardest": "1-98",
+                "inferno": "1-96"
+              },
+              "missionPack1": {
+                "hard": "5-26",
+                "hardest": "1-26",
+                "inferno": "1-24"
+              },
+              "missionPack2": {
+                "easy": "23-23",
+                "normal": "23-23",
+                "hard": "3-14",
+                "hardest": "1-23",
+                "inferno": "1-22"
+              }
+            }
+          },
+          {
+            "lv": "43",
+            "name": "Mirage 15S",
+            "stats": {
+              "Damage": "25x15",
+              "Homing": "A",
+              "Range": "400",
+              "Lock": "0.03",
+              "Reload": "0.17",
+              "Energy": "3",
+              "TDPS": "2250.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "68-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "75-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "15-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "8-18",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "52",
+            "name": "Fenrir",
+            "stats": {
+              "Damage": "120",
+              "Homing": "?",
+              "Range": "300",
+              "Lock": "0.07",
+              "Reload": "0.1",
+              "Energy": "1.5",
+              "AOE": "5",
+              "TDPS": "1200.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "24-89",
+                "inferno": "5-89"
+              },
+              "online": {
+                "hardest": "27-98",
+                "inferno": "5-98"
+              },
+              "missionPack1": {
+                "hardest": "3-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "15-23",
+                "hardest": "3-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "56",
+            "name": "Mirage 5-Way S",
+            "stats": {
+              "Damage": "220x5",
+              "Homing": "?",
+              "Range": "400",
+              "Lock": "0.05",
+              "Reload": "1.42",
+              "Energy": "9",
+              "AOE": "5",
+              "TDPS": "776.5"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "36-89",
+                "inferno": "12-89"
+              },
+              "online": {
+                "hardest": "39-98",
+                "inferno": "13-98"
+              },
+              "missionPack1": {
+                "hardest": "7-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "18-23",
+                "hardest": "5-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "60",
+            "name": "Psiblade α",
+            "stats": {
+              "Damage": "2000",
+              "Homing": "?",
+              "Range": "1000",
+              "Lock": "1",
+              "Reload": "2",
+              "Energy": "40",
+              "AOE": "20",
+              "TDPS": "1000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "47-89",
+                "inferno": "19-89"
+              },
+              "online": {
+                "hardest": "52-98",
+                "inferno": "21-98"
+              },
+              "missionPack1": {
+                "hardest": "11-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "21-23",
+                "hardest": "7-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "63",
+            "name": "Geist D",
+            "stats": {
+              "Damage": "400x3",
+              "Homing": "?",
+              "Range": "500",
+              "Lock": "0.07",
+              "Reload": "0.33",
+              "Energy": "4",
+              "AOE": "20",
+              "TDPS": "3600.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "55-89",
+                "inferno": "24-89"
+              },
+              "online": {
+                "hardest": "61-98",
+                "inferno": "27-98"
+              },
+              "missionPack1": {
+                "hardest": "14-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "9-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "67",
+            "name": "Ghost Chaser",
+            "stats": {
+              "Damage": "320x30",
+              "Homing": "?",
+              "Range": "600",
+              "Lock": "0.03",
+              "Reload": "1.5",
+              "Energy": "16",
+              "AOE": "5",
+              "TDPS": "6400.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "67-89",
+                "inferno": "31-89"
+              },
+              "online": {
+                "hardest": "73-98",
+                "inferno": "34-98"
+              },
+              "missionPack1": {
+                "hardest": "18-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "11-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "76",
+            "name": "Mirage 15WR",
+            "stats": {
+              "Damage": "50x15",
+              "Homing": "?",
+              "Range": "500",
+              "Lock": "0.02",
+              "Reload": "0.17",
+              "Energy": "2.5",
+              "TDPS": "4500.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "47-89"
+              },
+              "online": {
+                "inferno": "52-98"
+              },
+              "missionPack1": {
+                "inferno": "2-26"
+              },
+              "missionPack2": {
+                "hardest": "17-23",
+                "inferno": "2-23"
+              }
+            }
+          },
+          {
+            "lv": "82",
+            "name": "Fenrir 3-Way",
+            "stats": {
+              "Damage": "120x3",
+              "Homing": "?",
+              "Range": "350",
+              "Lock": "0.07",
+              "Reload": "0.1",
+              "Energy": "2",
+              "AOE": "5",
+              "TDPS": "3600.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "58-89"
+              },
+              "online": {
+                "inferno": "64-98"
+              },
+              "missionPack1": {
+                "inferno": "8-26"
+              },
+              "missionPack2": {
+                "hardest": "20-23",
+                "inferno": "8-23"
+              }
+            }
+          }
         ]
       },
       {
         "type": "Special Weapons",
-        "columns": [],
-        "weapons": []
+        "columns": [
+          "Damage",
+          "Range",
+          "Capacity",
+          "Reload",
+          "Energy",
+          "Duration",
+          "DPS",
+          "TDPS"
+        ],
+        "weapons": [
+          {
+            "lv": "2",
+            "name": "Pandora",
+            "stats": {
+              "Damage": "10",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "600.0",
+              "TDPS": "300.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "2",
+            "name": "Gleipnir",
+            "stats": {
+              "Damage": "7.5",
+              "Range": "100",
+              "Capacity": "300",
+              "Reload": "60",
+              "Energy": "65",
+              "Duration": "30",
+              "DPS": "150.0",
+              "TDPS": "75.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "10-40",
+                "normal": "9-32",
+                "hardest": "1-57",
+                "inferno": "1-25"
+              },
+              "online": {
+                "easy": "11-44",
+                "normal": "9-35",
+                "hardest": "1-63",
+                "inferno": "1-28"
+              },
+              "missionPack1": {
+                "hardest": "1-14"
+              },
+              "missionPack2": {
+                "hardest": "1-9"
+              }
+            }
+          },
+          {
+            "lv": "24",
+            "name": "Heaven's Gate",
+            "stats": {
+              "Damage": "30",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "600.0",
+              "TDPS": "300.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "86-89",
+                "hard": "10-53",
+                "hardest": "1-89",
+                "inferno": "1-64"
+              },
+              "online": {
+                "normal": "95-98",
+                "hard": "11-59",
+                "hardest": "1-98",
+                "inferno": "1-70"
+              },
+              "missionPack1": {
+                "normal": "24-26",
+                "hard": "1-6",
+                "hardest": "1-26",
+                "inferno": "1-11"
+              },
+              "missionPack2": {
+                "easy": "12-17",
+                "normal": "12-17",
+                "hard": "1-3",
+                "hardest": "1-22",
+                "inferno": "1-10"
+              }
+            }
+          },
+          {
+            "lv": "7",
+            "name": "Thunder Cluster",
+            "stats": {
+              "Damage": "20",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "33.3",
+              "DPS": "300.0",
+              "TDPS": "166.7"
+            },
+            "drops": {
+              "offline": {
+                "easy": "32-62",
+                "normal": "26-50",
+                "hard": "1-1",
+                "hardest": "1-71",
+                "inferno": "1-34"
+              },
+              "online": {
+                "easy": "35-68",
+                "normal": "29-55",
+                "hard": "1-1",
+                "hardest": "1-79",
+                "inferno": "1-37"
+              },
+              "missionPack1": {
+                "easy": "1-5",
+                "normal": "1-3",
+                "hardest": "1-19"
+              },
+              "missionPack2": {
+                "easy": "1-2",
+                "normal": "1-2",
+                "hardest": "1-12"
+              }
+            }
+          },
+          {
+            "lv": "13",
+            "name": "Pandora Anti-air Custom",
+            "stats": {
+              "Damage": "16",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "960.0",
+              "TDPS": "480.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "59-88",
+                "normal": "47-71",
+                "hard": "1-20",
+                "hardest": "1-88",
+                "inferno": "1-44"
+              },
+              "online": {
+                "easy": "65-97",
+                "normal": "52-78",
+                "hard": "1-22",
+                "hardest": "1-97",
+                "inferno": "1-49"
+              },
+              "missionPack1": {
+                "easy": "3-25",
+                "normal": "2-15",
+                "hardest": "1-25"
+              },
+              "missionPack2": {
+                "easy": "2-7",
+                "normal": "2-7",
+                "hardest": "1-15"
+              }
+            }
+          },
+          {
+            "lv": "20",
+            "name": "Pandora β",
+            "stats": {
+              "Damage": "30",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "1800.0",
+              "TDPS": "900.0"
+            },
+            "drops": {
+              "offline": {
+                "easy": "89-89",
+                "normal": "72-89",
+                "hard": "1-41",
+                "hardest": "1-89",
+                "inferno": "1-57"
+              },
+              "online": {
+                "easy": "98-98",
+                "normal": "79-98",
+                "hard": "1-45",
+                "hardest": "1-98",
+                "inferno": "1-63"
+              },
+              "missionPack1": {
+                "easy": "26-26",
+                "normal": "16-26",
+                "hardest": "1-26",
+                "inferno": "1-7"
+              },
+              "missionPack2": {
+                "easy": "8-13",
+                "normal": "8-13",
+                "hardest": "1-19",
+                "inferno": "1-7"
+              }
+            }
+          },
+          {
+            "lv": "25",
+            "name": "Psi Cluster",
+            "stats": {
+              "Damage": "30",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "1800.0",
+              "TDPS": "900.0"
+            },
+            "drops": {
+              "offline": {
+                "normal": "89-89",
+                "hard": "13-56",
+                "hardest": "1-89",
+                "inferno": "1-66"
+              },
+              "online": {
+                "hard": "14-62",
+                "hardest": "1-98",
+                "inferno": "1-72"
+              },
+              "missionPack1": {
+                "normal": "26-26",
+                "hard": "1-8",
+                "hardest": "1-26",
+                "inferno": "1-12"
+              },
+              "missionPack2": {
+                "easy": "12-18",
+                "normal": "12-18",
+                "hard": "1-4",
+                "hardest": "1-22",
+                "inferno": "1-11"
+              }
+            }
+          },
+          {
+            "lv": "34",
+            "name": "Pandora α",
+            "stats": {
+              "Damage": "45",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "2700.0",
+              "TDPS": "1350.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "41-84",
+                "hardest": "1-89",
+                "inferno": "1-81"
+              },
+              "online": {
+                "hard": "45-92",
+                "hardest": "1-98",
+                "inferno": "1-90"
+              },
+              "missionPack1": {
+                "hard": "1-23",
+                "hardest": "1-26",
+                "inferno": "1-21"
+              },
+              "missionPack2": {
+                "easy": "20-23",
+                "normal": "20-23",
+                "hard": "1-11",
+                "hardest": "1-23",
+                "inferno": "1-19"
+              }
+            }
+          },
+          {
+            "lv": "42",
+            "name": "Psi Cluster α",
+            "stats": {
+              "Damage": "60",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "3600.0",
+              "TDPS": "1800.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "65-89",
+                "hardest": "1-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "72-98",
+                "hardest": "1-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "13-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "7-18",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "50",
+            "name": "Heaven's Gate 10",
+            "stats": {
+              "Damage": "30x10",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "6000.0",
+              "TDPS": "3000.0"
+            },
+            "drops": {
+              "offline": {
+                "hard": "89-89",
+                "hardest": "19-89",
+                "inferno": "1-89"
+              },
+              "online": {
+                "hard": "98-98",
+                "hardest": "20-98",
+                "inferno": "1-98"
+              },
+              "missionPack1": {
+                "hard": "26-26",
+                "hardest": "1-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "13-23",
+                "hardest": "1-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "55",
+            "name": "Thunder Cluster α",
+            "stats": {
+              "Damage": "45",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "33.3",
+              "DPS": "675.0",
+              "TDPS": "375.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "33-89",
+                "inferno": "10-89"
+              },
+              "online": {
+                "hardest": "36-98",
+                "inferno": "11-98"
+              },
+              "missionPack1": {
+                "hardest": "6-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hard": "17-23",
+                "hardest": "4-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "70",
+            "name": "Heaven's Gate D10",
+            "stats": {
+              "Damage": "60x10",
+              "Reload": "60",
+              "Energy": "45",
+              "Duration": "30",
+              "DPS": "12000.0",
+              "TDPS": "6000.0"
+            },
+            "drops": {
+              "offline": {
+                "hardest": "75-89",
+                "inferno": "37-89"
+              },
+              "online": {
+                "hardest": "83-98",
+                "inferno": "40-98"
+              },
+              "missionPack1": {
+                "hardest": "21-26",
+                "inferno": "1-26"
+              },
+              "missionPack2": {
+                "hardest": "13-23",
+                "inferno": "1-23"
+              }
+            }
+          },
+          {
+            "lv": "87",
+            "name": "Thunder Orb",
+            "stats": {
+              "Damage": "100x2",
+              "Reload": "80",
+              "Energy": "240",
+              "Duration": "33.3",
+              "DPS": "6000.0",
+              "TDPS": "2500.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "67-89"
+              },
+              "online": {
+                "inferno": "73-98"
+              },
+              "missionPack1": {
+                "inferno": "13-26"
+              },
+              "missionPack2": {
+                "hardest": "23-23",
+                "inferno": "12-23"
+              }
+            }
+          },
+          {
+            "lv": "87",
+            "name": "Final Days",
+            "stats": {
+              "Damage": "10x10",
+              "Reload": "60",
+              "Energy": "200",
+              "Duration": "30",
+              "DPS": "2000.0",
+              "TDPS": "1000.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "67-89"
+              },
+              "online": {
+                "inferno": "73-98"
+              },
+              "missionPack1": {
+                "inferno": "13-26"
+              },
+              "missionPack2": {
+                "hardest": "23-23",
+                "inferno": "12-23"
+              }
+            }
+          },
+          {
+            "lv": "100",
+            "name": "Armageddon Cluster",
+            "stats": {
+              "Damage": "1000000",
+              "Reload": "40",
+              "Energy": "300",
+              "TDPS": "125000.0"
+            },
+            "drops": {
+              "offline": {
+                "inferno": "89-89"
+              },
+              "online": {
+                "inferno": "98-98"
+              },
+              "missionPack1": {
+                "inferno": "26-26"
+              },
+              "missionPack2": {
+                "inferno": "23-23"
+              }
+            }
+          }
+        ]
       }
     ]
   },
@@ -7227,7 +13734,7 @@
       {
         "type": "Missile Launchers",
         "columns": [],
-        "weapons": ["C+*A+C+C+*C+*A+A+A+*A+C+*C+C+*A+A+*A+"]
+        "weapons": []
       }
     ]
   }
