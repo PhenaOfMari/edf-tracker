@@ -4,7 +4,7 @@ import {oneLineHtml} from '../helpers/format';
 
 const template = oneLineHtml`
     {{#each tabs}}
-    <div class="tab{{#if_eq ../selected this}} selected{{/if_eq}}">{{this}}</div>
+    <div class="tab{{#if (eq ../selected this)}} selected{{/if}}">{{this}}</div>
     {{/each}}`;
 
 export default Marionette.View.extend({

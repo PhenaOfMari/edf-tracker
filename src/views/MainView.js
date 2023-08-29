@@ -19,11 +19,11 @@ const template = oneLineHtml`
             {{#with options}}
             <label for="columnsType">Displayed Columns</label>
             <select id="columnsType">
-                <option value="stats"{{#if_eq columnsType "stats"}} selected=""{{/if_eq}}>Stats</option>
-                <option value="offline"{{#if_eq columnsType "offline"}} selected=""{{/if_eq}}>Offline</option>
-                <option value="online"{{#if_eq columnsType "online"}} selected=""{{/if_eq}}>Online</option>
-                <option value="missionPack1"{{#if_eq columnsType "missionPack1"}} selected=""{{/if_eq}}>Mission Pack 1</option>
-                <option value="missionPack2"{{#if_eq columnsType "missionPack2"}} selected=""{{/if_eq}}>Mission Pack 2</option>
+                <option value="stats"{{#if (eq columnsType "stats")}} selected=""{{/if}}>Stats</option>
+                <option value="offline"{{#if (eq columnsType "offline")}} selected=""{{/if}}>Offline</option>
+                <option value="online"{{#if (eq columnsType "online")}} selected=""{{/if}}>Online</option>
+                <option value="missionPack1"{{#if (eq columnsType "missionPack1")}} selected=""{{/if}}>Mission Pack 1</option>
+                <option value="missionPack2"{{#if (eq columnsType "missionPack2")}} selected=""{{/if}}>Mission Pack 2</option>
             </select>
             <label for="hideChecked">Hide Collected</label>
             <input type="checkbox" id="hideChecked"{{#if hideChecked}} checked=""{{/if}}>

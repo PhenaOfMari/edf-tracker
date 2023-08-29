@@ -4,7 +4,7 @@ import _ from 'lodash';
 import Marionette from 'marionette';
 import Handlebars from 'handlebars';
 import App from './App';
-import {printValue, ifEq, and} from './helpers/handlebars';
+import {printValue, eq, and} from './helpers/handlebars';
 
 function handlebarsRenderer(template, data) {
     if (_.isUndefined(template)) {
@@ -17,7 +17,7 @@ function handlebarsRenderer(template, data) {
 }
 
 Handlebars.registerHelper('printValue', printValue);
-Handlebars.registerHelper('if_eq', ifEq);
+Handlebars.registerHelper('eq', eq);
 Handlebars.registerHelper('and', and);
 
 Marionette.View.setRenderer(handlebarsRenderer);

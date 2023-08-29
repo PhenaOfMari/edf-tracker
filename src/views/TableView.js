@@ -10,7 +10,7 @@ const template = oneLineHtml`
                 <th><span class="icon-checkmark"></span></th>
                 <th>LV</th>
                 <th>Weapon</th>
-                {{#if_eq options/columnsType "stats"}}
+                {{#if (eq options/columnsType "stats")}}
                 {{#each data/columns}}
                 <th>{{this}}</th>
                 {{/each}}
@@ -20,7 +20,7 @@ const template = oneLineHtml`
                 <th>Hard</th>
                 <th>Hardest</th>
                 <th>Inferno</th>
-                {{/if_eq}}
+                {{/if}}
             </tr>
         </thead>
         <tbody>
@@ -30,7 +30,7 @@ const template = oneLineHtml`
                 <td><input type="checkbox"{{#if (lookup ../settings name)}} checked=""{{/if}}></td>
                 <td class="align-right">{{lv}}</td>
                 <td>{{name}}</td>
-                {{#if_eq ../options/columnsType "stats"}}
+                {{#if (eq ../options/columnsType "stats")}}
                 {{#each ../data/columns}}
                 <td class="align-right">{{printValue (lookup ../stats this)}}</td>
                 {{/each}}
@@ -42,8 +42,20 @@ const template = oneLineHtml`
                 <td class="align-right">{{printValue (lookup (lookup ../drops this) "hardest")}}</td>
                 <td class="align-right">{{printValue (lookup (lookup ../drops this) "inferno")}}</td>
                 {{/with}}
-                {{/if_eq}}
+                {{/if}}
             </tr>
+            {{#if (eq ../options/columnsType "stats")}}
+            {{#each subweapons}}
+            <tr>
+                <td></td>
+                <td></td>
+                <td>{{name}}</td>
+                {{#each ../../data/columns}}
+                <td class="align-right">{{printValue (lookup ../stats this)}}</td>
+                {{/each}}
+            </tr>
+            {{/each}}
+            {{/if}}
             {{/unless}}
             {{/each}}
         </tbody>
