@@ -45,7 +45,7 @@ const template = oneLineHtml`
                 {{/if}}
             </tr>
             {{#if (eq ../options/columnsType "stats")}}
-            {{#each subweapons}}
+            {{#each subWeapons}}
             <tr>
                 <td></td>
                 <td></td>
